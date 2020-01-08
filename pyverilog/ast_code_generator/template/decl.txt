@@ -1,2 +1,2 @@
-{%- for item in items %}{{ item }}
+{%- for first, second in items %}{{ first }} {% if second != '' %}{{ second }} {% endif %}
 {%- endfor %}

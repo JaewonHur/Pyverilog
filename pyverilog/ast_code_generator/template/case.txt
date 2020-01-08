@@ -1,1 +1,2 @@
-{{ cond }}: {{ statement }}
+{{ cond }}: 
+{{ statement }}

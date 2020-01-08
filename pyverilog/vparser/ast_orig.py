@@ -47,11 +47,7 @@ class Node(object):
         buf.write('\n')
 
         for c in self.children():
-            if not isinstance(c, tuple):
-                c.show(buf, offset + indent, attrnames, showlineno)
-            else:
-                for cc in c:
-                    cc.show(buf, offset + indent, attrnames, showlineno)
+            c.show(buf, offset + indent, attrnames, showlineno)
 
     def __eq__(self, other):
         if type(self) != type(other):
@@ -374,23 +370,6 @@ class Localparam(Parameter):
 
 class Supply(Parameter):
     pass
-
-class Ioport(Node):
-    attr_names = ()
-
-    def __init__(self, first, second=None, lineno=0):
-        self.lineno = lineno
-        self.first = first
-        self.second = second
-
-    def children(self):
-        nodelist = []
-        if self.first:
-            nodelist.append(self.first)
-        if self.second:
-            nodelist.append(self.second)
-        return tuple(nodelist)
-
 
 
 class Decl(Node):
@@ -1088,12 +1067,11 @@ class PortArg(Node):
 class Function(Node):
     attr_names = ('name',)
 
-    def __init__(self, name, retwidth, statement, ret=None, lineno=0):
+    def __init__(self, name, retwidth, statement, lineno=0):
         self.lineno = lineno
         self.name = name
         self.retwidth = retwidth
         self.statement = statement
-        self.ret = ret
 
     def children(self):
         nodelist = []

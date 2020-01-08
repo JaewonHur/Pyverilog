@@ -406,8 +406,17 @@ class ASTCodeGenerator(ConvertVisitor):
     def visit_Decl(self, node):
         filename = getfilename(node)
         template = self.get_template(filename)
+        """ JWHUR added """
+        items = []
+        for item in node.list:
+            if type(item) is tuple:
+                items.append((item[0].__class__.__name__.lower(), self.visit(item[1])))
+            else:
+                items.append((self.visit(item), ''))
+
         template_dict = {
-            'items': [self.visit(item) for item in node.list],
+            'items': items
+#            'items': [self.visit(item) for item in node.list],
         }
         rslt = template.render(template_dict)
         return rslt
@@ -650,7 +659,7 @@ class ASTCodeGenerator(ConvertVisitor):
         template = self.get_template(filename)
         template_dict = {
             'sens_list': self.visit(node.sens_list),
-            'statement': self.visit(node.statement),
+            'statement': self.indent(self.visit(node.statement)),
         }
         rslt = template.render(template_dict)
         return rslt
@@ -781,7 +790,7 @@ class ASTCodeGenerator(ConvertVisitor):
             cond.append(', ')
         template_dict = {
             'cond': ''.join(cond[:-1]),
-            'statement': self.visit(node.statement),
+            'statement': self.indent(self.visit(node.statement)),
         }
         rslt = template.render(template_dict)
         return rslt
@@ -897,8 +906,9 @@ class ASTCodeGenerator(ConvertVisitor):
         statement = [self.indent(self.visit(s)) for s in node.statement]
         template_dict = {
             'name': escape(node.name),
-            'retwidth': self.visit(node.retwidth),
+            'retwidth': '' if node.ret else self.visit(node.retwidth),
             'statement': statement,
+            'ret': '' if node.ret is None else node.ret
         }
         rslt = template.render(template_dict)
         return rslt

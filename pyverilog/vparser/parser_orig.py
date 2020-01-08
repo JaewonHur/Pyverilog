@@ -400,7 +400,6 @@ class VerilogParser(PLYParser):
         if 'tri' in sigtypes:
             second = Tri(name=name, width=width, signed=signed,
                          dimensions=dimensions, lineno=lineno)
-
         return Ioport(first, second, lineno=lineno)
 
     def typecheck_ioport(self, sigtypes):
@@ -423,7 +422,6 @@ class VerilogParser(PLYParser):
 
     def p_ioport(self, p):
         'ioport : sigtypes portname'
-        self.typecheck_ioport(p[1])
         p[0] = self.create_ioport(p[1], p[2], lineno=p.lineno(2))
         p.set_lineno(0, p.lineno(1))
 
@@ -529,18 +527,10 @@ class VerilogParser(PLYParser):
         signed = False
         if 'signed' in sigtypes:
             signed = True
-        if 'input' in sigtypes and 'integer' in sigtypes:
-            decls.append((Input(name=name, width=width, 
-                                signed=signed, lineno=lineno, dimensions=dimensions),
-                            Integer(name=name, width=width,
-                                signed=signed, lineno=lineno, dimensions=dimensions)))
-        elif 'input' in sigtypes:
+        if 'input' in sigtypes:
             decls.append(Input(name=name, width=width,
                                signed=signed, lineno=lineno, dimensions=dimensions))
-        if 'output' in sigtypes and 'integer' in sigtypes:
-            decls.append(Output(name=name, width=Width(msb=IntConst('31', lineno=lineno), lsb=IntConst('0', lineno=lineno), lineno=lineno),
-                                signed=signed, lineno=lineno, dimensions=dimensions))
-        elif 'output' in sigtypes:
+        if 'output' in sigtypes:
             decls.append(Output(name=name, width=width,
                                 signed=signed, lineno=lineno, dimensions=dimensions))
         if 'inout' in sigtypes:
@@ -561,7 +551,6 @@ class VerilogParser(PLYParser):
         if 'supply1' in sigtypes:
             decls.append(Supply(name=name, value=IntConst('1', lineno=lineno),
                                 width=width, signed=signed, lineno=lineno))
-
         return decls
 
     def typecheck_decl(self, sigtypes, dimensions=None):
@@ -2070,7 +2059,7 @@ class VerilogParser(PLYParser):
     # --------------------------------------------------------------------------
     def p_function(self, p):
         'function : FUNCTION width ID SEMICOLON function_statement ENDFUNCTION'
-        p[0] = Function(p[3], p[2], p[5], ret=None, lineno=p.lineno(1))
+        p[0] = Function(p[3], p[2], p[5], lineno=p.lineno(1))
         p.set_lineno(0, p.lineno(1))
 
     def p_function_nowidth(self, p):
@@ -2079,17 +2068,17 @@ class VerilogParser(PLYParser):
                         Width(IntConst('0', lineno=p.lineno(1)),
                               IntConst('0', lineno=p.lineno(1)),
                               lineno=p.lineno(1)),
-                        p[4], ret=None, lineno=p.lineno(1))
+                        p[4], lineno=p.lineno(1))
         p.set_lineno(0, p.lineno(1))
 
     """ JWHUR added """
     def p_function_integer(self, p):
         'function : FUNCTION INTEGER ID SEMICOLON function_statement ENDFUNCTION'
         p[0] = Function(p[3],
-                        Width(IntConst('0', lineno=p.lineno(1)),
+                        Width(IntConst('31', lineno=p.lineno(1)),
                               IntConst('0', lineno=p.lineno(1)),
                               lineno=p.lineno(1)),
-                        p[5], ret='integer', lineno=p.lineno(1))
+                        p[5], lineno=p.lineno(1))
         p.set_lineno(0, p.lineno(1))
 
     def p_function_statement(self, p):
@@ -2114,7 +2103,7 @@ class VerilogParser(PLYParser):
         if isinstance(p[1], Decl):
             for r in p[1].list:
                 if (not isinstance(r, Input) and not isinstance(r, Reg) and
-                        not isinstance(r, Integer) and not isinstance(r, tuple)):
+                        not isinstance(r, Integer)):
                     raise ParseError("Syntax Error")
         p[0] = p[1]
         p.set_lineno(0, p.lineno(1))

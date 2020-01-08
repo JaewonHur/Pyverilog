@@ -1,3 +1,4 @@
 
-always @({{ sens_list }}) {{ statement }}
+always @({{ sens_list }}) 
+{{ statement }}
 

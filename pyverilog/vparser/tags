@@ -1,0 +1,967 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Always	ast.py	/^class Always(Node):$/;"	c
+AlwaysComb	ast.py	/^class AlwaysComb(Always):$/;"	c
+AlwaysFF	ast.py	/^class AlwaysFF(Always):$/;"	c
+AlwaysLatch	ast.py	/^class AlwaysLatch(Always):$/;"	c
+And	ast.py	/^class And(Operator):$/;"	c
+Assign	ast.py	/^class Assign(Node):$/;"	c
+Block	ast.py	/^class Block(Node):$/;"	c
+BlockingSubstitution	ast.py	/^class BlockingSubstitution(Substitution):$/;"	c
+Case	ast.py	/^class Case(Node):$/;"	c
+CaseStatement	ast.py	/^class CaseStatement(Node):$/;"	c
+CasexStatement	ast.py	/^class CasexStatement(CaseStatement):$/;"	c
+Concat	ast.py	/^class Concat(Node):$/;"	c
+Cond	ast.py	/^class Cond(Operator):$/;"	c
+Constant	ast.py	/^class Constant(Value):$/;"	c
+Coord	plyparser.py	/^class Coord(object):$/;"	c
+Decl	ast.py	/^class Decl(Node):$/;"	c
+DelayStatement	ast.py	/^class DelayStatement(Node):$/;"	c
+Description	ast.py	/^class Description(Node):$/;"	c
+Dimensions	ast.py	/^class Dimensions(Node):$/;"	c
+Disable	ast.py	/^class Disable(Node):$/;"	c
+Divide	ast.py	/^class Divide(Operator):$/;"	c
+EmbeddedCode	ast.py	/^class EmbeddedCode(Node):$/;"	c
+Eq	ast.py	/^class Eq(Operator):$/;"	c
+Eql	ast.py	/^class Eql(Operator):$/;"	c
+EventStatement	ast.py	/^class EventStatement(Node):$/;"	c
+FloatConst	ast.py	/^class FloatConst(Constant):$/;"	c
+ForStatement	ast.py	/^class ForStatement(Node):$/;"	c
+ForeverStatement	ast.py	/^class ForeverStatement(Node):$/;"	c
+Function	ast.py	/^class Function(Node):$/;"	c
+FunctionCall	ast.py	/^class FunctionCall(Node):$/;"	c
+GenerateStatement	ast.py	/^class GenerateStatement(Node):$/;"	c
+Genvar	ast.py	/^class Genvar(Variable):$/;"	c
+Grammar	ply/yacc.py	/^class Grammar(object):$/;"	c
+GrammarError	ply/yacc.py	/^class GrammarError(YaccError): pass$/;"	c
+GreaterEq	ast.py	/^class GreaterEq(Operator):$/;"	c
+GreaterThan	ast.py	/^class GreaterThan(Operator):$/;"	c
+Identifier	ast.py	/^class Identifier(Node):$/;"	c
+IdentifierScope	ast.py	/^class IdentifierScope(Node):$/;"	c
+IdentifierScopeLabel	ast.py	/^class IdentifierScopeLabel(Node):$/;"	c
+IfStatement	ast.py	/^class IfStatement(Node):$/;"	c
+Initial	ast.py	/^class Initial(Node):$/;"	c
+Inout	ast.py	/^class Inout(Variable):$/;"	c
+Input	ast.py	/^class Input(Variable):$/;"	c
+Instance	ast.py	/^class Instance(Node):$/;"	c
+InstanceList	ast.py	/^class InstanceList(Node):$/;"	c
+IntConst	ast.py	/^class IntConst(Constant):$/;"	c
+Integer	ast.py	/^class Integer(Variable):$/;"	c
+Ioport	ast.py	/^class Ioport(Node):$/;"	c
+LALRError	ply/yacc.py	/^class LALRError(YaccError): pass$/;"	c
+LConcat	ast.py	/^class LConcat(Concat):$/;"	c
+LRGeneratedTable	ply/yacc.py	/^class LRGeneratedTable(LRTable):$/;"	c
+LRItem	ply/yacc.py	/^class LRItem(object):$/;"	c
+LRParser	ply/yacc.py	/^class LRParser:$/;"	c
+LRTable	ply/yacc.py	/^class LRTable(object):$/;"	c
+Land	ast.py	/^class Land(Operator):$/;"	c
+Length	ast.py	/^class Length(Width):$/;"	c
+LessEq	ast.py	/^class LessEq(Operator):$/;"	c
+LessThan	ast.py	/^class LessThan(Operator):$/;"	c
+LexError	ply/lex.py	/^class LexError(Exception):$/;"	c
+LexToken	ply/lex.py	/^class LexToken(object):$/;"	c
+Lexer	ply/lex.py	/^class Lexer:$/;"	c
+LexerReflect	ply/lex.py	/^class LexerReflect(object):$/;"	c
+Localparam	ast.py	/^class Localparam(Parameter):$/;"	c
+Lor	ast.py	/^class Lor(Operator):$/;"	c
+Lvalue	ast.py	/^class Lvalue(Node):$/;"	c
+MAXINT	ply/yacc.py	/^    MAXINT = sys.maxint$/;"	v
+MAXINT	ply/yacc.py	/^    MAXINT = sys.maxsize$/;"	v
+MiniProduction	ply/yacc.py	/^class MiniProduction(object):$/;"	c
+Minus	ast.py	/^class Minus(Operator):$/;"	c
+Mod	ast.py	/^class Mod(Operator):$/;"	c
+ModuleDef	ast.py	/^class ModuleDef(Node):$/;"	c
+Node	ast.py	/^class Node(object):$/;"	c
+NonblockingSubstitution	ast.py	/^class NonblockingSubstitution(Substitution):$/;"	c
+NotEq	ast.py	/^class NotEq(Operator):$/;"	c
+NotEql	ast.py	/^class NotEql(Operator):$/;"	c
+NullLogger	ply/lex.py	/^class NullLogger(object):$/;"	c
+NullLogger	ply/yacc.py	/^class NullLogger(object):$/;"	c
+Operator	ast.py	/^class Operator(Node):$/;"	c
+Or	ast.py	/^class Or(Operator):$/;"	c
+Output	ast.py	/^class Output(Variable):$/;"	c
+PLYParser	plyparser.py	/^class PLYParser(object):$/;"	c
+ParallelBlock	ast.py	/^class ParallelBlock(Node):$/;"	c
+ParamArg	ast.py	/^class ParamArg(Node):$/;"	c
+Parameter	ast.py	/^class Parameter(Node):$/;"	c
+Paramlist	ast.py	/^class Paramlist(Node):$/;"	c
+ParseError	plyparser.py	/^class ParseError(Exception):$/;"	c
+ParserReflect	ply/yacc.py	/^class ParserReflect(object):$/;"	c
+Partselect	ast.py	/^class Partselect(Node):$/;"	c
+Plus	ast.py	/^class Plus(Operator):$/;"	c
+PlyLogger	ply/lex.py	/^class PlyLogger(object):$/;"	c
+PlyLogger	ply/yacc.py	/^class PlyLogger(object):$/;"	c
+Pointer	ast.py	/^class Pointer(Node):$/;"	c
+Port	ast.py	/^class Port(Node):$/;"	c
+PortArg	ast.py	/^class PortArg(Node):$/;"	c
+Portlist	ast.py	/^class Portlist(Node):$/;"	c
+Power	ast.py	/^class Power(Operator):$/;"	c
+Pragma	ast.py	/^class Pragma(Node):$/;"	c
+PragmaEntry	ast.py	/^class PragmaEntry(Node):$/;"	c
+Production	ply/yacc.py	/^class Production(object):$/;"	c
+Real	ast.py	/^class Real(Variable):$/;"	c
+Reg	ast.py	/^class Reg(Variable):$/;"	c
+Repeat	ast.py	/^class Repeat(Node):$/;"	c
+Rvalue	ast.py	/^class Rvalue(Node):$/;"	c
+Sens	ast.py	/^class Sens(Node):$/;"	c
+SensList	ast.py	/^class SensList(Node):$/;"	c
+SingleStatement	ast.py	/^class SingleStatement(Node):$/;"	c
+Sla	ast.py	/^class Sla(Operator):$/;"	c
+Sll	ast.py	/^class Sll(Operator):$/;"	c
+Source	ast.py	/^class Source(Node):$/;"	c
+Sra	ast.py	/^class Sra(Operator):$/;"	c
+Srl	ast.py	/^class Srl(Operator):$/;"	c
+StringConst	ast.py	/^class StringConst(Constant):$/;"	c
+StringTypes	ply/lex.py	/^    StringTypes = (str, bytes)$/;"	v
+StringTypes	ply/lex.py	/^    StringTypes = (types.StringType, types.UnicodeType)$/;"	v
+Substitution	ast.py	/^class Substitution(Node):$/;"	c
+Supply	ast.py	/^class Supply(Parameter):$/;"	c
+SystemCall	ast.py	/^class SystemCall(Node):$/;"	c
+TOKEN	ply/lex.py	/^def TOKEN(r):$/;"	f
+Task	ast.py	/^class Task(Node):$/;"	c
+TaskCall	ast.py	/^class TaskCall(Node):$/;"	c
+Times	ast.py	/^class Times(Operator):$/;"	c
+Token	ply/lex.py	/^Token = TOKEN$/;"	v
+Tri	ast.py	/^class Tri(Variable):$/;"	c
+Uand	ast.py	/^class Uand(UnaryOperator):$/;"	c
+Ulnot	ast.py	/^class Ulnot(UnaryOperator):$/;"	c
+Uminus	ast.py	/^class Uminus(UnaryOperator):$/;"	c
+Unand	ast.py	/^class Unand(UnaryOperator):$/;"	c
+UnaryOperator	ast.py	/^class UnaryOperator(Operator):$/;"	c
+UniqueCaseStatement	ast.py	/^class UniqueCaseStatement(CaseStatement):$/;"	c
+Unor	ast.py	/^class Unor(UnaryOperator):$/;"	c
+Unot	ast.py	/^class Unot(UnaryOperator):$/;"	c
+Uor	ast.py	/^class Uor(UnaryOperator):$/;"	c
+Uplus	ast.py	/^class Uplus(UnaryOperator):$/;"	c
+Uxnor	ast.py	/^class Uxnor(UnaryOperator):$/;"	c
+Uxor	ast.py	/^class Uxor(UnaryOperator):$/;"	c
+Value	ast.py	/^class Value(Node):$/;"	c
+Variable	ast.py	/^class Variable(Value):$/;"	c
+VerilogCodeParser	parser.py	/^class VerilogCodeParser(object):$/;"	c
+VerilogLexer	lexer.py	/^class VerilogLexer(object):$/;"	c
+VerilogParser	parser.py	/^class VerilogParser(PLYParser):$/;"	c
+VerilogPreprocessor	preprocessor.py	/^class VerilogPreprocessor(object):$/;"	c
+VersionError	ply/yacc.py	/^class VersionError(YaccError): pass$/;"	c
+WaitStatement	ast.py	/^class WaitStatement(Node):$/;"	c
+WhileStatement	ast.py	/^class WhileStatement(Node):$/;"	c
+Width	ast.py	/^class Width(Node):$/;"	c
+Wire	ast.py	/^class Wire(Variable):$/;"	c
+Xnor	ast.py	/^class Xnor(Operator):$/;"	c
+Xor	ast.py	/^class Xor(Operator):$/;"	c
+YaccError	ply/yacc.py	/^class YaccError(Exception):   pass$/;"	c
+YaccProduction	ply/yacc.py	/^class YaccProduction:$/;"	c
+YaccSymbol	ply/yacc.py	/^class YaccSymbol:$/;"	c
+__call__	ply/lex.py	/^    def __call__(self,*args,**kwargs):$/;"	m	class:NullLogger	file:
+__call__	ply/yacc.py	/^    def __call__(self,*args,**kwargs):$/;"	m	class:NullLogger	file:
+__eq__	ast.py	/^    def __eq__(self, other):$/;"	m	class:Node	file:
+__getattribute__	ply/lex.py	/^    def __getattribute__(self,name):$/;"	m	class:NullLogger	file:
+__getattribute__	ply/yacc.py	/^    def __getattribute__(self,name):$/;"	m	class:NullLogger	file:
+__getitem__	ply/yacc.py	/^    def __getitem__(self,index):$/;"	m	class:Grammar	file:
+__getitem__	ply/yacc.py	/^    def __getitem__(self,index):$/;"	m	class:Production	file:
+__getitem__	ply/yacc.py	/^    def __getitem__(self,n):$/;"	m	class:YaccProduction	file:
+__getslice__	ply/yacc.py	/^    def __getslice__(self,i,j):$/;"	m	class:YaccProduction	file:
+__hash__	ast.py	/^    def __hash__(self):$/;"	m	class:Node	file:
+__init__	ast.py	/^    def __init__(self, code, lineno=0):$/;"	m	class:EmbeddedCode
+__init__	ast.py	/^    def __init__(self, comp, caselist, lineno=0):$/;"	m	class:CaseStatement
+__init__	ast.py	/^    def __init__(self, cond, statement, lineno=0):$/;"	m	class:Case
+__init__	ast.py	/^    def __init__(self, cond, statement, lineno=0):$/;"	m	class:WaitStatement
+__init__	ast.py	/^    def __init__(self, cond, statement, lineno=0):$/;"	m	class:WhileStatement
+__init__	ast.py	/^    def __init__(self, cond, true_statement, false_statement, lineno=0):$/;"	m	class:IfStatement
+__init__	ast.py	/^    def __init__(self, cond, true_value, false_value, lineno=0):$/;"	m	class:Cond
+__init__	ast.py	/^    def __init__(self, definitions, lineno=0):$/;"	m	class:Description
+__init__	ast.py	/^    def __init__(self, delay, lineno=0):$/;"	m	class:DelayStatement
+__init__	ast.py	/^    def __init__(self, dest, lineno=0):$/;"	m	class:Disable
+__init__	ast.py	/^    def __init__(self, entry, lineno=0):$/;"	m	class:Pragma
+__init__	ast.py	/^    def __init__(self, first, second=None, lineno=0):$/;"	m	class:Ioport
+__init__	ast.py	/^    def __init__(self, items, lineno=0):$/;"	m	class:GenerateStatement
+__init__	ast.py	/^    def __init__(self, labellist, lineno=0):$/;"	m	class:IdentifierScope
+__init__	ast.py	/^    def __init__(self, left, right, ldelay=None, rdelay=None, lineno=0):$/;"	m	class:Assign
+__init__	ast.py	/^    def __init__(self, left, right, ldelay=None, rdelay=None, lineno=0):$/;"	m	class:Substitution
+__init__	ast.py	/^    def __init__(self, left, right, lineno=0):$/;"	m	class:Operator
+__init__	ast.py	/^    def __init__(self, lengths, lineno=0):$/;"	m	class:Dimensions
+__init__	ast.py	/^    def __init__(self, list, lineno=0):$/;"	m	class:Concat
+__init__	ast.py	/^    def __init__(self, list, lineno=0):$/;"	m	class:Decl
+__init__	ast.py	/^    def __init__(self, list, lineno=0):$/;"	m	class:SensList
+__init__	ast.py	/^    def __init__(self, module, name, portlist, parameterlist, array=None, lineno=0):$/;"	m	class:Instance
+__init__	ast.py	/^    def __init__(self, module, parameterlist, instances, lineno=0):$/;"	m	class:InstanceList
+__init__	ast.py	/^    def __init__(self, msb, lsb, lineno=0):$/;"	m	class:Width
+__init__	ast.py	/^    def __init__(self, name, args, lineno=0):$/;"	m	class:FunctionCall
+__init__	ast.py	/^    def __init__(self, name, args, lineno=0):$/;"	m	class:TaskCall
+__init__	ast.py	/^    def __init__(self, name, description, lineno=0):$/;"	m	class:Source
+__init__	ast.py	/^    def __init__(self, name, loop=None, lineno=0):$/;"	m	class:IdentifierScopeLabel
+__init__	ast.py	/^    def __init__(self, name, paramlist, portlist, items, default_nettype='wire', lineno=0):$/;"	m	class:ModuleDef
+__init__	ast.py	/^    def __init__(self, name, retwidth, statement, lineno=0):$/;"	m	class:Function
+__init__	ast.py	/^    def __init__(self, name, scope=None, lineno=0):$/;"	m	class:Identifier
+__init__	ast.py	/^    def __init__(self, name, statement, lineno=0):$/;"	m	class:Task
+__init__	ast.py	/^    def __init__(self, name, value, width=None, signed=False, lineno=0):$/;"	m	class:Parameter
+__init__	ast.py	/^    def __init__(self, name, value=None, lineno=0):$/;"	m	class:PragmaEntry
+__init__	ast.py	/^    def __init__(self, name, width, dimensions, type, lineno=0):$/;"	m	class:Port
+__init__	ast.py	/^    def __init__(self, name, width=None, signed=False, dimensions=None, lineno=0):$/;"	m	class:Variable
+__init__	ast.py	/^    def __init__(self, paramname, argname, lineno=0):$/;"	m	class:ParamArg
+__init__	ast.py	/^    def __init__(self, params, lineno=0):$/;"	m	class:Paramlist
+__init__	ast.py	/^    def __init__(self, portname, argname, lineno=0):$/;"	m	class:PortArg
+__init__	ast.py	/^    def __init__(self, ports, lineno=0):$/;"	m	class:Portlist
+__init__	ast.py	/^    def __init__(self, pre, cond, post, statement, lineno=0):$/;"	m	class:ForStatement
+__init__	ast.py	/^    def __init__(self, right, lineno=0):$/;"	m	class:UnaryOperator
+__init__	ast.py	/^    def __init__(self, sens_list, statement, lineno=0):$/;"	m	class:Always
+__init__	ast.py	/^    def __init__(self, senslist, lineno=0):$/;"	m	class:EventStatement
+__init__	ast.py	/^    def __init__(self, sig, type='posedge', lineno=0):$/;"	m	class:Sens
+__init__	ast.py	/^    def __init__(self, statement, lineno=0):$/;"	m	class:ForeverStatement
+__init__	ast.py	/^    def __init__(self, statement, lineno=0):$/;"	m	class:Initial
+__init__	ast.py	/^    def __init__(self, statement, lineno=0):$/;"	m	class:SingleStatement
+__init__	ast.py	/^    def __init__(self, statements, scope=None, lineno=0):$/;"	m	class:Block
+__init__	ast.py	/^    def __init__(self, statements, scope=None, lineno=0):$/;"	m	class:ParallelBlock
+__init__	ast.py	/^    def __init__(self, syscall, args, lineno=0):$/;"	m	class:SystemCall
+__init__	ast.py	/^    def __init__(self, value, lineno=0):$/;"	m	class:Constant
+__init__	ast.py	/^    def __init__(self, value, lineno=0):$/;"	m	class:Value
+__init__	ast.py	/^    def __init__(self, value, times, lineno=0):$/;"	m	class:Repeat
+__init__	ast.py	/^    def __init__(self, var, lineno=0):$/;"	m	class:Lvalue
+__init__	ast.py	/^    def __init__(self, var, lineno=0):$/;"	m	class:Rvalue
+__init__	ast.py	/^    def __init__(self, var, msb, lsb, lineno=0):$/;"	m	class:Partselect
+__init__	ast.py	/^    def __init__(self, var, ptr, lineno=0):$/;"	m	class:Pointer
+__init__	lexer.py	/^    def __init__(self, error_func):$/;"	m	class:VerilogLexer
+__init__	parser.py	/^    def __init__(self, filelist, preprocess_output='preprocess.output',$/;"	m	class:VerilogCodeParser
+__init__	parser.py	/^    def __init__(self, outputdir=".", debug=True):$/;"	m	class:VerilogParser
+__init__	ply/lex.py	/^    def __init__(self):$/;"	m	class:Lexer
+__init__	ply/lex.py	/^    def __init__(self,f):$/;"	m	class:PlyLogger
+__init__	ply/lex.py	/^    def __init__(self,ldict,log=None,reflags=0):$/;"	m	class:LexerReflect
+__init__	ply/lex.py	/^    def __init__(self,message,s):$/;"	m	class:LexError
+__init__	ply/yacc.py	/^    def __init__(self):$/;"	m	class:LRTable
+__init__	ply/yacc.py	/^    def __init__(self,f):$/;"	m	class:PlyLogger
+__init__	ply/yacc.py	/^    def __init__(self,grammar,method='LALR',log=None):$/;"	m	class:LRGeneratedTable
+__init__	ply/yacc.py	/^    def __init__(self,lrtab,errorf):$/;"	m	class:LRParser
+__init__	ply/yacc.py	/^    def __init__(self,number,name,prod,precedence=('right',0),func=None,file='',line=0):$/;"	m	class:Production
+__init__	ply/yacc.py	/^    def __init__(self,p,n):$/;"	m	class:LRItem
+__init__	ply/yacc.py	/^    def __init__(self,pdict,log=None):$/;"	m	class:ParserReflect
+__init__	ply/yacc.py	/^    def __init__(self,s,stack=None):$/;"	m	class:YaccProduction
+__init__	ply/yacc.py	/^    def __init__(self,str,name,len,func,file,line):$/;"	m	class:MiniProduction
+__init__	ply/yacc.py	/^    def __init__(self,terminals):$/;"	m	class:Grammar
+__init__	plyparser.py	/^    def __init__(self, file, line, column=None):$/;"	m	class:Coord
+__init__	preprocessor.py	/^    def __init__(self, filelist, outputfile='pp.out', include=None, define=None):$/;"	m	class:VerilogPreprocessor
+__iter__	ply/lex.py	/^    def __iter__(self):$/;"	m	class:Lexer	file:
+__len__	ply/yacc.py	/^    def __len__(self):$/;"	m	class:Grammar	file:
+__len__	ply/yacc.py	/^    def __len__(self):$/;"	m	class:Production	file:
+__len__	ply/yacc.py	/^    def __len__(self):$/;"	m	class:YaccProduction	file:
+__ne__	ast.py	/^    def __ne__(self, other):$/;"	m	class:Node	file:
+__next__	ply/lex.py	/^    __next__ = next$/;"	v	class:Lexer
+__nonzero__	ply/yacc.py	/^    def __nonzero__(self):$/;"	m	class:Production	file:
+__repr__	ast.py	/^    def __repr__(self):$/;"	m	class:Constant	file:
+__repr__	ast.py	/^    def __repr__(self):$/;"	m	class:Function	file:
+__repr__	ast.py	/^    def __repr__(self):$/;"	m	class:FunctionCall	file:
+__repr__	ast.py	/^    def __repr__(self):$/;"	m	class:Identifier	file:
+__repr__	ast.py	/^    def __repr__(self):$/;"	m	class:Operator	file:
+__repr__	ast.py	/^    def __repr__(self):$/;"	m	class:SystemCall	file:
+__repr__	ply/lex.py	/^    def __repr__(self):$/;"	m	class:LexToken	file:
+__repr__	ply/yacc.py	/^    def __repr__(self):   return str(self)$/;"	m	class:YaccSymbol	file:
+__repr__	ply/yacc.py	/^    def __repr__(self):$/;"	m	class:LRItem	file:
+__repr__	ply/yacc.py	/^    def __repr__(self):$/;"	m	class:MiniProduction	file:
+__repr__	ply/yacc.py	/^    def __repr__(self):$/;"	m	class:Production	file:
+__setitem__	ply/yacc.py	/^    def __setitem__(self,n,v):$/;"	m	class:YaccProduction	file:
+__str__	ply/lex.py	/^    def __str__(self):$/;"	m	class:LexToken	file:
+__str__	ply/yacc.py	/^    def __str__(self):    return self.type$/;"	m	class:YaccSymbol	file:
+__str__	ply/yacc.py	/^    def __str__(self):$/;"	m	class:LRItem	file:
+__str__	ply/yacc.py	/^    def __str__(self):$/;"	m	class:MiniProduction	file:
+__str__	ply/yacc.py	/^    def __str__(self):$/;"	m	class:Production	file:
+__str__	plyparser.py	/^    def __str__(self):$/;"	m	class:Coord	file:
+__tabversion__	ply/lex.py	/^__tabversion__ = "3.2"       # Version of table file used$/;"	v
+__tabversion__	ply/yacc.py	/^__tabversion__ = "3.2"       # Table version$/;"	v
+__version__	ply/lex.py	/^__version__    = "3.4"$/;"	v
+__version__	ply/yacc.py	/^__version__    = "3.4"$/;"	v
+_coord	plyparser.py	/^    def _coord(self, lineno, column=None):$/;"	m	class:PLYParser
+_create_opt_rule	plyparser.py	/^    def _create_opt_rule(self, rulename):$/;"	m	class:PLYParser
+_error	lexer.py	/^    def _error(self, msg, token):$/;"	m	class:VerilogLexer
+_find_tok_column	lexer.py	/^    def _find_tok_column(self, token):$/;"	m	class:VerilogLexer
+_first	ply/yacc.py	/^    def _first(self,beta):$/;"	m	class:Grammar
+_form_master_re	ply/lex.py	/^def _form_master_re(relist,reflags,ldict,toknames):$/;"	f
+_funcs_to_names	ply/lex.py	/^def _funcs_to_names(funclist,namelist):$/;"	f
+_is_identifier	ply/lex.py	/^_is_identifier = re.compile(r'^[a-zA-Z0-9_]+$')$/;"	v
+_is_identifier	ply/yacc.py	/^_is_identifier = re.compile(r'^[a-zA-Z0-9_-]+$')$/;"	v
+_lexer_error_func	parser.py	/^    def _lexer_error_func(self, msg, line, column):$/;"	m	class:VerilogParser
+_make_tok_location	lexer.py	/^    def _make_tok_location(self, token):$/;"	m	class:VerilogLexer
+_names_to_funcs	ply/lex.py	/^def _names_to_funcs(namelist,fdict):$/;"	f
+_parse_error	plyparser.py	/^    def _parse_error(self, msg, coord):$/;"	m	class:PLYParser
+_statetoken	ply/lex.py	/^def _statetoken(s,names):$/;"	f
+add_lalr_lookaheads	ply/yacc.py	/^    def add_lalr_lookaheads(self,C):$/;"	m	class:LRGeneratedTable
+add_lookaheads	ply/yacc.py	/^    def add_lookaheads(self,lookbacks,followset):$/;"	m	class:LRGeneratedTable
+add_production	ply/yacc.py	/^    def add_production(self,prodname,syms,func=None,file='',line=0):$/;"	m	class:Grammar
+ast	parser.py	/^    ast = codeparser.parse()$/;"	v
+attr_names	ast.py	/^    attr_names = ('code',)$/;"	v	class:EmbeddedCode
+attr_names	ast.py	/^    attr_names = ('dest',)$/;"	v	class:Disable
+attr_names	ast.py	/^    attr_names = ('module',)$/;"	v	class:InstanceList
+attr_names	ast.py	/^    attr_names = ('name', 'loop')$/;"	v	class:IdentifierScopeLabel
+attr_names	ast.py	/^    attr_names = ('name', 'module')$/;"	v	class:Instance
+attr_names	ast.py	/^    attr_names = ('name', 'signed')$/;"	v	class:Parameter
+attr_names	ast.py	/^    attr_names = ('name', 'signed')$/;"	v	class:Variable
+attr_names	ast.py	/^    attr_names = ('name', 'type',)$/;"	v	class:Port
+attr_names	ast.py	/^    attr_names = ('name', )$/;"	v	class:PragmaEntry
+attr_names	ast.py	/^    attr_names = ('name',)$/;"	v	class:Function
+attr_names	ast.py	/^    attr_names = ('name',)$/;"	v	class:Identifier
+attr_names	ast.py	/^    attr_names = ('name',)$/;"	v	class:ModuleDef
+attr_names	ast.py	/^    attr_names = ('name',)$/;"	v	class:Source
+attr_names	ast.py	/^    attr_names = ('name',)$/;"	v	class:Task
+attr_names	ast.py	/^    attr_names = ('paramname',)$/;"	v	class:ParamArg
+attr_names	ast.py	/^    attr_names = ('portname',)$/;"	v	class:PortArg
+attr_names	ast.py	/^    attr_names = ('scope',)$/;"	v	class:Block
+attr_names	ast.py	/^    attr_names = ('scope',)$/;"	v	class:ParallelBlock
+attr_names	ast.py	/^    attr_names = ('syscall',)$/;"	v	class:SystemCall
+attr_names	ast.py	/^    attr_names = ('type',)$/;"	v	class:Sens
+attr_names	ast.py	/^    attr_names = ('value',)$/;"	v	class:Constant
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Always
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Assign
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Case
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:CaseStatement
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Concat
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Cond
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Decl
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:DelayStatement
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Description
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Dimensions
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:EventStatement
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:ForStatement
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:ForeverStatement
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:FunctionCall
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:GenerateStatement
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:IdentifierScope
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:IfStatement
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Initial
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Ioport
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Lvalue
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Operator
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Paramlist
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Partselect
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Pointer
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Portlist
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Pragma
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Repeat
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Rvalue
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:SensList
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:SingleStatement
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Substitution
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:TaskCall
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:UnaryOperator
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Value
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:WaitStatement
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:WhileStatement
+attr_names	ast.py	/^    attr_names = ()$/;"	v	class:Width
+begin	ply/lex.py	/^    def begin(self,state):$/;"	m	class:Lexer
+bin_number	lexer.py	/^    bin_number = '[0-9]*\\'[bB][0-1xXzZ?][0-1xXzZ?_]*'$/;"	v	class:VerilogLexer
+bind	ply/yacc.py	/^    def bind(self,pdict):$/;"	m	class:MiniProduction
+bind	ply/yacc.py	/^    def bind(self,pdict):$/;"	m	class:Production
+bind_callables	ply/yacc.py	/^    def bind_callables(self,pdict):$/;"	m	class:LRTable
+build	lexer.py	/^    def build(self, **kwargs):$/;"	m	class:VerilogLexer
+build_lritems	ply/yacc.py	/^    def build_lritems(self):$/;"	m	class:Grammar
+children	ast.py	/^    def children(self):$/;"	m	class:Always
+children	ast.py	/^    def children(self):$/;"	m	class:Assign
+children	ast.py	/^    def children(self):$/;"	m	class:Block
+children	ast.py	/^    def children(self):$/;"	m	class:Case
+children	ast.py	/^    def children(self):$/;"	m	class:CaseStatement
+children	ast.py	/^    def children(self):$/;"	m	class:Concat
+children	ast.py	/^    def children(self):$/;"	m	class:Cond
+children	ast.py	/^    def children(self):$/;"	m	class:Constant
+children	ast.py	/^    def children(self):$/;"	m	class:Decl
+children	ast.py	/^    def children(self):$/;"	m	class:DelayStatement
+children	ast.py	/^    def children(self):$/;"	m	class:Description
+children	ast.py	/^    def children(self):$/;"	m	class:Dimensions
+children	ast.py	/^    def children(self):$/;"	m	class:Disable
+children	ast.py	/^    def children(self):$/;"	m	class:EmbeddedCode
+children	ast.py	/^    def children(self):$/;"	m	class:EventStatement
+children	ast.py	/^    def children(self):$/;"	m	class:ForStatement
+children	ast.py	/^    def children(self):$/;"	m	class:ForeverStatement
+children	ast.py	/^    def children(self):$/;"	m	class:Function
+children	ast.py	/^    def children(self):$/;"	m	class:FunctionCall
+children	ast.py	/^    def children(self):$/;"	m	class:GenerateStatement
+children	ast.py	/^    def children(self):$/;"	m	class:Identifier
+children	ast.py	/^    def children(self):$/;"	m	class:IdentifierScope
+children	ast.py	/^    def children(self):$/;"	m	class:IdentifierScopeLabel
+children	ast.py	/^    def children(self):$/;"	m	class:IfStatement
+children	ast.py	/^    def children(self):$/;"	m	class:Initial
+children	ast.py	/^    def children(self):$/;"	m	class:Instance
+children	ast.py	/^    def children(self):$/;"	m	class:InstanceList
+children	ast.py	/^    def children(self):$/;"	m	class:Ioport
+children	ast.py	/^    def children(self):$/;"	m	class:Lvalue
+children	ast.py	/^    def children(self):$/;"	m	class:ModuleDef
+children	ast.py	/^    def children(self):$/;"	m	class:Node
+children	ast.py	/^    def children(self):$/;"	m	class:Operator
+children	ast.py	/^    def children(self):$/;"	m	class:ParallelBlock
+children	ast.py	/^    def children(self):$/;"	m	class:ParamArg
+children	ast.py	/^    def children(self):$/;"	m	class:Parameter
+children	ast.py	/^    def children(self):$/;"	m	class:Paramlist
+children	ast.py	/^    def children(self):$/;"	m	class:Partselect
+children	ast.py	/^    def children(self):$/;"	m	class:Pointer
+children	ast.py	/^    def children(self):$/;"	m	class:Port
+children	ast.py	/^    def children(self):$/;"	m	class:PortArg
+children	ast.py	/^    def children(self):$/;"	m	class:Portlist
+children	ast.py	/^    def children(self):$/;"	m	class:Pragma
+children	ast.py	/^    def children(self):$/;"	m	class:PragmaEntry
+children	ast.py	/^    def children(self):$/;"	m	class:Repeat
+children	ast.py	/^    def children(self):$/;"	m	class:Rvalue
+children	ast.py	/^    def children(self):$/;"	m	class:Sens
+children	ast.py	/^    def children(self):$/;"	m	class:SensList
+children	ast.py	/^    def children(self):$/;"	m	class:SingleStatement
+children	ast.py	/^    def children(self):$/;"	m	class:Source
+children	ast.py	/^    def children(self):$/;"	m	class:Substitution
+children	ast.py	/^    def children(self):$/;"	m	class:SystemCall
+children	ast.py	/^    def children(self):$/;"	m	class:Task
+children	ast.py	/^    def children(self):$/;"	m	class:TaskCall
+children	ast.py	/^    def children(self):$/;"	m	class:UnaryOperator
+children	ast.py	/^    def children(self):$/;"	m	class:Value
+children	ast.py	/^    def children(self):$/;"	m	class:Variable
+children	ast.py	/^    def children(self):$/;"	m	class:WaitStatement
+children	ast.py	/^    def children(self):$/;"	m	class:WhileStatement
+children	ast.py	/^    def children(self):$/;"	m	class:Width
+clone	ply/lex.py	/^    def clone(self,object=None):$/;"	m	class:Lexer
+codeparser	parser.py	/^    codeparser = VerilogCodeParser($/;"	v
+compute_first	ply/yacc.py	/^    def compute_first(self):$/;"	m	class:Grammar
+compute_follow	ply/yacc.py	/^    def compute_follow(self,start=None):$/;"	m	class:Grammar
+compute_follow_sets	ply/yacc.py	/^    def compute_follow_sets(self,ntrans,readsets,inclsets):$/;"	m	class:LRGeneratedTable
+compute_lookback_includes	ply/yacc.py	/^    def compute_lookback_includes(self,C,trans,nullable):$/;"	m	class:LRGeneratedTable
+compute_nullable_nonterminals	ply/yacc.py	/^    def compute_nullable_nonterminals(self):$/;"	m	class:LRGeneratedTable
+compute_read_sets	ply/yacc.py	/^    def compute_read_sets(self,C, ntrans, nullable):$/;"	m	class:LRGeneratedTable
+create_decl	parser.py	/^    def create_decl(self, sigtypes, name, width=None, dimensions=None, lineno=0):$/;"	m	class:VerilogParser
+create_declassign	parser.py	/^    def create_declassign(self, sigtypes, name, assign, width=None, lineno=0):$/;"	m	class:VerilogParser
+create_ioport	parser.py	/^    def create_ioport(self, sigtypes, name, width=None, dimensions=None, lineno=0):$/;"	m	class:VerilogParser
+critical	ply/lex.py	/^    def critical(self,msg,*args,**kwargs):$/;"	m	class:PlyLogger
+critical	ply/yacc.py	/^    critical = debug$/;"	v	class:PlyLogger
+current_state	ply/lex.py	/^    def current_state(self):$/;"	m	class:Lexer
+debug	parser.py	/^        debug=debug$/;"	v
+debug	ply/lex.py	/^    debug = critical$/;"	v	class:PlyLogger
+debug	ply/yacc.py	/^    def debug(self,msg,*args,**kwargs):$/;"	m	class:PlyLogger
+debug_file	ply/yacc.py	/^debug_file  = 'parser.out'     # Default name of the debugging file$/;"	v
+decimal_number	lexer.py	/^    decimal_number = '([0-9]*\\'[dD][0-9xXzZ?][0-9xXzZ?_]*)|([0-9][0-9_]*)'$/;"	v	class:VerilogLexer
+default_lr	ply/yacc.py	/^default_lr  = 'LALR'           # Default LR table generation method$/;"	v
+digraph	ply/yacc.py	/^def digraph(X,R,FP):$/;"	f
+directives	parser.py	/^    directives = codeparser.get_directives()$/;"	v
+dr_relation	ply/yacc.py	/^    def dr_relation(self,C,trans,nullable):$/;"	m	class:LRGeneratedTable
+dump_tokens	lexer.py	/^def dump_tokens(text):$/;"	f
+errok	ply/yacc.py	/^    def errok(self):$/;"	m	class:LRParser
+error	ply/lex.py	/^    def error(self,msg,*args,**kwargs):$/;"	m	class:PlyLogger
+error	ply/yacc.py	/^    def error(self):$/;"	m	class:YaccProduction
+error	ply/yacc.py	/^    def error(self,msg,*args,**kwargs):$/;"	m	class:PlyLogger
+error_count	ply/yacc.py	/^error_count = 3                # Number of symbols that must be shifted to leave recovery mode$/;"	v
+find_nonterminal_transitions	ply/yacc.py	/^    def find_nonterminal_transitions(self,C):$/;"	m	class:LRGeneratedTable
+find_unreachable	ply/yacc.py	/^    def find_unreachable(self):$/;"	m	class:Grammar
+float_number	lexer.py	/^        exponent_part + '?)|([0-9]+' + exponent_part + ')))'$/;"	v	class:VerilogLexer
+format_result	ply/yacc.py	/^def format_result(r):$/;"	f
+format_stack_entry	ply/yacc.py	/^def format_stack_entry(r):$/;"	f
+func_code	ply/lex.py	/^    def func_code(f):$/;"	f
+func_code	ply/yacc.py	/^    def func_code(f):$/;"	f
+get_all	ply/lex.py	/^    def get_all(self):$/;"	m	class:LexerReflect
+get_all	ply/yacc.py	/^    def get_all(self):$/;"	m	class:ParserReflect
+get_caller_module_dict	ply/lex.py	/^def get_caller_module_dict(levels):$/;"	f
+get_caller_module_dict	ply/yacc.py	/^def get_caller_module_dict(levels):$/;"	f
+get_default_nettype	lexer.py	/^    def get_default_nettype(self):$/;"	m	class:VerilogLexer
+get_default_nettype	parser.py	/^    def get_default_nettype(self):$/;"	m	class:VerilogParser
+get_directives	lexer.py	/^    def get_directives(self):$/;"	m	class:VerilogLexer
+get_directives	parser.py	/^    def get_directives(self):$/;"	m	class:VerilogCodeParser
+get_directives	parser.py	/^    def get_directives(self):$/;"	m	class:VerilogParser
+get_error_func	ply/yacc.py	/^    def get_error_func(self):$/;"	m	class:ParserReflect
+get_literals	ply/lex.py	/^    def get_literals(self):$/;"	m	class:LexerReflect
+get_pfunctions	ply/yacc.py	/^    def get_pfunctions(self):$/;"	m	class:ParserReflect
+get_precedence	ply/yacc.py	/^    def get_precedence(self):$/;"	m	class:ParserReflect
+get_rules	ply/lex.py	/^    def get_rules(self):$/;"	m	class:LexerReflect
+get_start	ply/yacc.py	/^    def get_start(self):$/;"	m	class:ParserReflect
+get_states	ply/lex.py	/^    def get_states(self):$/;"	m	class:LexerReflect
+get_tokens	ply/lex.py	/^    def get_tokens(self):$/;"	m	class:LexerReflect
+get_tokens	ply/yacc.py	/^    def get_tokens(self):$/;"	m	class:ParserReflect
+hex_number	lexer.py	/^    hex_number = '[0-9]*\\'[hH][0-9a-fA-FxXzZ?][0-9a-fA-FxXzZ?_]*'$/;"	v	class:VerilogLexer
+infinite_cycles	ply/yacc.py	/^    def infinite_cycles(self):$/;"	m	class:Grammar
+info	ply/lex.py	/^    info = critical$/;"	v	class:PlyLogger
+info	ply/yacc.py	/^    info     = debug$/;"	v	class:PlyLogger
+input	lexer.py	/^    def input(self, data):$/;"	m	class:VerilogLexer
+input	ply/lex.py	/^    def input(self,s):$/;"	m	class:Lexer
+keywords	lexer.py	/^    keywords = ($/;"	v	class:VerilogLexer
+lex	ply/lex.py	/^def lex(module=None,object=None,debug=0,optimize=0,lextab="lextab",reflags=0,nowarn=0,outputdir="", debuglog=None, errorlog=None):$/;"	f
+lexpos	ply/yacc.py	/^    def lexpos(self,n):$/;"	m	class:YaccProduction
+lexspan	ply/yacc.py	/^    def lexspan(self,n):$/;"	m	class:YaccProduction
+lineno	ply/yacc.py	/^    def lineno(self,n):$/;"	m	class:YaccProduction
+linespan	ply/yacc.py	/^    def linespan(self,n):$/;"	m	class:YaccProduction
+load_ply_lex	ply/yacc.py	/^def load_ply_lex():$/;"	f
+lr0_closure	ply/yacc.py	/^    def lr0_closure(self,I):$/;"	m	class:LRGeneratedTable
+lr0_goto	ply/yacc.py	/^    def lr0_goto(self,I,x):$/;"	m	class:LRGeneratedTable
+lr0_items	ply/yacc.py	/^    def lr0_items(self):$/;"	m	class:LRGeneratedTable
+lr_item	ply/yacc.py	/^    def lr_item(self,n):$/;"	m	class:Production
+lr_parse_table	ply/yacc.py	/^    def lr_parse_table(self):$/;"	m	class:LRGeneratedTable
+mark_reachable_from	ply/yacc.py	/^        def mark_reachable_from(s):$/;"	f	function:Grammar.find_unreachable
+my_error_func	lexer.py	/^    def my_error_func(msg, a, b):$/;"	f	function:dump_tokens
+next	ply/lex.py	/^    def next(self):$/;"	m	class:Lexer
+octal_number	lexer.py	/^    octal_number = '[0-9]*\\'[oO][0-7xXzZ?][0-7xXzZ?_]*'$/;"	v	class:VerilogLexer
+operators	lexer.py	/^    operators = ($/;"	v	class:VerilogLexer
+optrule	plyparser.py	/^        def optrule(self, p):$/;"	f	function:PLYParser._create_opt_rule
+outputdir	parser.py	/^        outputdir=outputdir,$/;"	v
+p_always	parser.py	/^    def p_always(self, p):$/;"	m	class:VerilogParser
+p_always_comb	parser.py	/^    def p_always_comb(self, p):$/;"	m	class:VerilogParser
+p_always_ff	parser.py	/^    def p_always_ff(self, p):$/;"	m	class:VerilogParser
+p_always_latch	parser.py	/^    def p_always_latch(self, p):$/;"	m	class:VerilogParser
+p_always_statement	parser.py	/^    def p_always_statement(self, p):$/;"	m	class:VerilogParser
+p_assignment	parser.py	/^    def p_assignment(self, p):$/;"	m	class:VerilogParser
+p_assignment_delay	parser.py	/^    def p_assignment_delay(self, p):$/;"	m	class:VerilogParser
+p_basic_statement	parser.py	/^    def p_basic_statement(self, p):$/;"	m	class:VerilogParser
+p_block	parser.py	/^    def p_block(self, p):$/;"	m	class:VerilogParser
+p_block_empty	parser.py	/^    def p_block_empty(self, p):$/;"	m	class:VerilogParser
+p_block_statement	parser.py	/^    def p_block_statement(self, p):$/;"	m	class:VerilogParser
+p_block_statements	parser.py	/^    def p_block_statements(self, p):$/;"	m	class:VerilogParser
+p_block_statements_one	parser.py	/^    def p_block_statements_one(self, p):$/;"	m	class:VerilogParser
+p_blocking_substitution	parser.py	/^    def p_blocking_substitution(self, p):$/;"	m	class:VerilogParser
+p_blocking_substitution_base	parser.py	/^    def p_blocking_substitution_base(self, p):$/;"	m	class:VerilogParser
+p_case_comp	parser.py	/^    def p_case_comp(self, p):$/;"	m	class:VerilogParser
+p_case_statement	parser.py	/^    def p_case_statement(self, p):$/;"	m	class:VerilogParser
+p_casecontent_condition_one	parser.py	/^    def p_casecontent_condition_one(self, p):$/;"	m	class:VerilogParser
+p_casecontent_condition_single	parser.py	/^    def p_casecontent_condition_single(self, p):$/;"	m	class:VerilogParser
+p_casecontent_statement	parser.py	/^    def p_casecontent_statement(self, p):$/;"	m	class:VerilogParser
+p_casecontent_statement_default	parser.py	/^    def p_casecontent_statement_default(self, p):$/;"	m	class:VerilogParser
+p_casecontent_statements	parser.py	/^    def p_casecontent_statements(self, p):$/;"	m	class:VerilogParser
+p_casecontent_statements_one	parser.py	/^    def p_casecontent_statements_one(self, p):$/;"	m	class:VerilogParser
+p_casex_statement	parser.py	/^    def p_casex_statement(self, p):$/;"	m	class:VerilogParser
+p_concat	parser.py	/^    def p_concat(self, p):$/;"	m	class:VerilogParser
+p_concatlist	parser.py	/^    def p_concatlist(self, p):$/;"	m	class:VerilogParser
+p_concatlist_one	parser.py	/^    def p_concatlist_one(self, p):$/;"	m	class:VerilogParser
+p_cond	parser.py	/^    def p_cond(self, p):$/;"	m	class:VerilogParser
+p_const_expression_floatnum	parser.py	/^    def p_const_expression_floatnum(self, p):$/;"	m	class:VerilogParser
+p_const_expression_intnum	parser.py	/^    def p_const_expression_intnum(self, p):$/;"	m	class:VerilogParser
+p_const_expression_stringliteral	parser.py	/^    def p_const_expression_stringliteral(self, p):$/;"	m	class:VerilogParser
+p_decl	parser.py	/^    def p_decl(self, p):$/;"	m	class:VerilogParser
+p_decl_width	parser.py	/^    def p_decl_width(self, p):$/;"	m	class:VerilogParser
+p_declarray	parser.py	/^    def p_declarray(self, p):$/;"	m	class:VerilogParser
+p_declassign	parser.py	/^    def p_declassign(self, p):$/;"	m	class:VerilogParser
+p_declassign_element	parser.py	/^    def p_declassign_element(self, p):$/;"	m	class:VerilogParser
+p_declassign_element_delay	parser.py	/^    def p_declassign_element_delay(self, p):$/;"	m	class:VerilogParser
+p_declassign_width	parser.py	/^    def p_declassign_width(self, p):$/;"	m	class:VerilogParser
+p_declname	parser.py	/^    def p_declname(self, p):$/;"	m	class:VerilogParser
+p_declnamelist	parser.py	/^    def p_declnamelist(self, p):$/;"	m	class:VerilogParser
+p_declnamelist_one	parser.py	/^    def p_declnamelist_one(self, p):$/;"	m	class:VerilogParser
+p_definition	parser.py	/^    def p_definition(self, p):$/;"	m	class:VerilogParser
+p_definition_pragma	parser.py	/^    def p_definition_pragma(self, p):$/;"	m	class:VerilogParser
+p_definitions	parser.py	/^    def p_definitions(self, p):$/;"	m	class:VerilogParser
+p_definitions_one	parser.py	/^    def p_definitions_one(self, p):$/;"	m	class:VerilogParser
+p_delays	parser.py	/^    def p_delays(self, p):$/;"	m	class:VerilogParser
+p_delays_empty	parser.py	/^    def p_delays_empty(self, p):$/;"	m	class:VerilogParser
+p_delays_floatnumber	parser.py	/^    def p_delays_floatnumber(self, p):$/;"	m	class:VerilogParser
+p_delays_identifier	parser.py	/^    def p_delays_identifier(self, p):$/;"	m	class:VerilogParser
+p_delays_intnumber	parser.py	/^    def p_delays_intnumber(self, p):$/;"	m	class:VerilogParser
+p_description	parser.py	/^    def p_description(self, p):$/;"	m	class:VerilogParser
+p_dimensions	parser.py	/^    def p_dimensions(self, p):$/;"	m	class:VerilogParser
+p_dimensions_one	parser.py	/^    def p_dimensions_one(self, p):$/;"	m	class:VerilogParser
+p_disable	parser.py	/^    def p_disable(self, p):$/;"	m	class:VerilogParser
+p_edgesig_base_identifier	parser.py	/^    def p_edgesig_base_identifier(self, p):$/;"	m	class:VerilogParser
+p_edgesig_base_pointer	parser.py	/^    def p_edgesig_base_pointer(self, p):$/;"	m	class:VerilogParser
+p_edgesigs	parser.py	/^    def p_edgesigs(self, p):$/;"	m	class:VerilogParser
+p_edgesigs_comma	parser.py	/^    def p_edgesigs_comma(self, p):$/;"	m	class:VerilogParser
+p_edgesigs_one	parser.py	/^    def p_edgesigs_one(self, p):$/;"	m	class:VerilogParser
+p_else_statement	parser.py	/^    def p_else_statement(self, p):$/;"	m	class:VerilogParser
+p_empty	parser.py	/^    def p_empty(self, p):$/;"	m	class:VerilogParser
+p_error	parser.py	/^    def p_error(self, p):$/;"	m	class:VerilogParser
+p_event_statement	parser.py	/^    def p_event_statement(self, p):$/;"	m	class:VerilogParser
+p_expression_And	parser.py	/^    def p_expression_And(self, p):$/;"	m	class:VerilogParser
+p_expression_Or	parser.py	/^    def p_expression_Or(self, p):$/;"	m	class:VerilogParser
+p_expression_Xnor	parser.py	/^    def p_expression_Xnor(self, p):$/;"	m	class:VerilogParser
+p_expression_Xor	parser.py	/^    def p_expression_Xor(self, p):$/;"	m	class:VerilogParser
+p_expression_concat	parser.py	/^    def p_expression_concat(self, p):$/;"	m	class:VerilogParser
+p_expression_cond	parser.py	/^    def p_expression_cond(self, p):$/;"	m	class:VerilogParser
+p_expression_const	parser.py	/^    def p_expression_const(self, p):$/;"	m	class:VerilogParser
+p_expression_div	parser.py	/^    def p_expression_div(self, p):$/;"	m	class:VerilogParser
+p_expression_eq	parser.py	/^    def p_expression_eq(self, p):$/;"	m	class:VerilogParser
+p_expression_eql	parser.py	/^    def p_expression_eql(self, p):$/;"	m	class:VerilogParser
+p_expression_expr	parser.py	/^    def p_expression_expr(self, p):$/;"	m	class:VerilogParser
+p_expression_functioncall	parser.py	/^    def p_expression_functioncall(self, p):$/;"	m	class:VerilogParser
+p_expression_greatereq	parser.py	/^    def p_expression_greatereq(self, p):$/;"	m	class:VerilogParser
+p_expression_greaterthan	parser.py	/^    def p_expression_greaterthan(self, p):$/;"	m	class:VerilogParser
+p_expression_id	parser.py	/^    def p_expression_id(self, p):$/;"	m	class:VerilogParser
+p_expression_land	parser.py	/^    def p_expression_land(self, p):$/;"	m	class:VerilogParser
+p_expression_lesseq	parser.py	/^    def p_expression_lesseq(self, p):$/;"	m	class:VerilogParser
+p_expression_lessthan	parser.py	/^    def p_expression_lessthan(self, p):$/;"	m	class:VerilogParser
+p_expression_lor	parser.py	/^    def p_expression_lor(self, p):$/;"	m	class:VerilogParser
+p_expression_minus	parser.py	/^    def p_expression_minus(self, p):$/;"	m	class:VerilogParser
+p_expression_mod	parser.py	/^    def p_expression_mod(self, p):$/;"	m	class:VerilogParser
+p_expression_noteq	parser.py	/^    def p_expression_noteq(self, p):$/;"	m	class:VerilogParser
+p_expression_noteql	parser.py	/^    def p_expression_noteql(self, p):$/;"	m	class:VerilogParser
+p_expression_partselect	parser.py	/^    def p_expression_partselect(self, p):$/;"	m	class:VerilogParser
+p_expression_plus	parser.py	/^    def p_expression_plus(self, p):$/;"	m	class:VerilogParser
+p_expression_pointer	parser.py	/^    def p_expression_pointer(self, p):$/;"	m	class:VerilogParser
+p_expression_power	parser.py	/^    def p_expression_power(self, p):$/;"	m	class:VerilogParser
+p_expression_repeat	parser.py	/^    def p_expression_repeat(self, p):$/;"	m	class:VerilogParser
+p_expression_sla	parser.py	/^    def p_expression_sla(self, p):$/;"	m	class:VerilogParser
+p_expression_sll	parser.py	/^    def p_expression_sll(self, p):$/;"	m	class:VerilogParser
+p_expression_sra	parser.py	/^    def p_expression_sra(self, p):$/;"	m	class:VerilogParser
+p_expression_srl	parser.py	/^    def p_expression_srl(self, p):$/;"	m	class:VerilogParser
+p_expression_systemcall	parser.py	/^    def p_expression_systemcall(self, p):$/;"	m	class:VerilogParser
+p_expression_times	parser.py	/^    def p_expression_times(self, p):$/;"	m	class:VerilogParser
+p_expression_uand	parser.py	/^    def p_expression_uand(self, p):$/;"	m	class:VerilogParser
+p_expression_ulnot	parser.py	/^    def p_expression_ulnot(self, p):$/;"	m	class:VerilogParser
+p_expression_uminus	parser.py	/^    def p_expression_uminus(self, p):$/;"	m	class:VerilogParser
+p_expression_unand	parser.py	/^    def p_expression_unand(self, p):$/;"	m	class:VerilogParser
+p_expression_unor	parser.py	/^    def p_expression_unor(self, p):$/;"	m	class:VerilogParser
+p_expression_unot	parser.py	/^    def p_expression_unot(self, p):$/;"	m	class:VerilogParser
+p_expression_uor	parser.py	/^    def p_expression_uor(self, p):$/;"	m	class:VerilogParser
+p_expression_uplus	parser.py	/^    def p_expression_uplus(self, p):$/;"	m	class:VerilogParser
+p_expression_uxnor	parser.py	/^    def p_expression_uxnor(self, p):$/;"	m	class:VerilogParser
+p_expression_uxor	parser.py	/^    def p_expression_uxor(self, p):$/;"	m	class:VerilogParser
+p_floatnumber	parser.py	/^    def p_floatnumber(self, p):$/;"	m	class:VerilogParser
+p_for_statement	parser.py	/^    def p_for_statement(self, p):$/;"	m	class:VerilogParser
+p_forcond	parser.py	/^    def p_forcond(self, p):$/;"	m	class:VerilogParser
+p_forcond_empty	parser.py	/^    def p_forcond_empty(self, p):$/;"	m	class:VerilogParser
+p_forcontent_statement	parser.py	/^    def p_forcontent_statement(self, p):$/;"	m	class:VerilogParser
+p_forever_statement	parser.py	/^    def p_forever_statement(self, p):$/;"	m	class:VerilogParser
+p_forpost	parser.py	/^    def p_forpost(self, p):$/;"	m	class:VerilogParser
+p_forpost_empty	parser.py	/^    def p_forpost_empty(self, p):$/;"	m	class:VerilogParser
+p_forpre	parser.py	/^    def p_forpre(self, p):$/;"	m	class:VerilogParser
+p_forpre_empty	parser.py	/^    def p_forpre_empty(self, p):$/;"	m	class:VerilogParser
+p_func_args	parser.py	/^    def p_func_args(self, p):$/;"	m	class:VerilogParser
+p_func_args_empty	parser.py	/^    def p_func_args_empty(self, p):$/;"	m	class:VerilogParser
+p_func_args_one	parser.py	/^    def p_func_args_one(self, p):$/;"	m	class:VerilogParser
+p_function	parser.py	/^    def p_function(self, p):$/;"	m	class:VerilogParser
+p_function_calc	parser.py	/^    def p_function_calc(self, p):$/;"	m	class:VerilogParser
+p_function_nowidth	parser.py	/^    def p_function_nowidth(self, p):$/;"	m	class:VerilogParser
+p_function_statement	parser.py	/^    def p_function_statement(self, p):$/;"	m	class:VerilogParser
+p_functioncall	parser.py	/^    def p_functioncall(self, p):$/;"	m	class:VerilogParser
+p_funcvardecl	parser.py	/^    def p_funcvardecl(self, p):$/;"	m	class:VerilogParser
+p_funcvardecls	parser.py	/^    def p_funcvardecls(self, p):$/;"	m	class:VerilogParser
+p_funcvardecls_one	parser.py	/^    def p_funcvardecls_one(self, p):$/;"	m	class:VerilogParser
+p_generate	parser.py	/^    def p_generate(self, p):$/;"	m	class:VerilogParser
+p_generate_block	parser.py	/^    def p_generate_block(self, p):$/;"	m	class:VerilogParser
+p_generate_for	parser.py	/^    def p_generate_for(self, p):$/;"	m	class:VerilogParser
+p_generate_forcontent	parser.py	/^    def p_generate_forcontent(self, p):$/;"	m	class:VerilogParser
+p_generate_if	parser.py	/^    def p_generate_if(self, p):$/;"	m	class:VerilogParser
+p_generate_if_false_item	parser.py	/^    def p_generate_if_false_item(self, p):$/;"	m	class:VerilogParser
+p_generate_if_true_item	parser.py	/^    def p_generate_if_true_item(self, p):$/;"	m	class:VerilogParser
+p_generate_if_woelse	parser.py	/^    def p_generate_if_woelse(self, p):$/;"	m	class:VerilogParser
+p_generate_item	parser.py	/^    def p_generate_item(self, p):$/;"	m	class:VerilogParser
+p_generate_items	parser.py	/^    def p_generate_items(self, p):$/;"	m	class:VerilogParser
+p_generate_items_empty	parser.py	/^    def p_generate_items_empty(self, p):$/;"	m	class:VerilogParser
+p_generate_items_one	parser.py	/^    def p_generate_items_one(self, p):$/;"	m	class:VerilogParser
+p_generate_named_block	parser.py	/^    def p_generate_named_block(self, p):$/;"	m	class:VerilogParser
+p_genvar	parser.py	/^    def p_genvar(self, p):$/;"	m	class:VerilogParser
+p_genvardecl	parser.py	/^    def p_genvardecl(self, p):$/;"	m	class:VerilogParser
+p_genvarlist	parser.py	/^    def p_genvarlist(self, p):$/;"	m	class:VerilogParser
+p_genvarlist_one	parser.py	/^    def p_genvarlist_one(self, p):$/;"	m	class:VerilogParser
+p_identifier	parser.py	/^    def p_identifier(self, p):$/;"	m	class:VerilogParser
+p_if_statement	parser.py	/^    def p_if_statement(self, p):$/;"	m	class:VerilogParser
+p_if_statement_delay	parser.py	/^    def p_if_statement_delay(self, p):$/;"	m	class:VerilogParser
+p_if_statement_woelse	parser.py	/^    def p_if_statement_woelse(self, p):$/;"	m	class:VerilogParser
+p_if_statement_woelse_delay	parser.py	/^    def p_if_statement_woelse_delay(self, p):$/;"	m	class:VerilogParser
+p_ifcontent_statement	parser.py	/^    def p_ifcontent_statement(self, p):$/;"	m	class:VerilogParser
+p_initial	parser.py	/^    def p_initial(self, p):$/;"	m	class:VerilogParser
+p_initial_statement	parser.py	/^    def p_initial_statement(self, p):$/;"	m	class:VerilogParser
+p_instance	parser.py	/^    def p_instance(self, p):$/;"	m	class:VerilogParser
+p_instance_body	parser.py	/^    def p_instance_body(self, p):$/;"	m	class:VerilogParser
+p_instance_body_array	parser.py	/^    def p_instance_body_array(self, p):$/;"	m	class:VerilogParser
+p_instance_body_noname	parser.py	/^    def p_instance_body_noname(self, p):$/;"	m	class:VerilogParser
+p_instance_bodylist	parser.py	/^    def p_instance_bodylist(self, p):$/;"	m	class:VerilogParser
+p_instance_bodylist_noname	parser.py	/^    def p_instance_bodylist_noname(self, p):$/;"	m	class:VerilogParser
+p_instance_bodylist_one	parser.py	/^    def p_instance_bodylist_one(self, p):$/;"	m	class:VerilogParser
+p_instance_bodylist_one_noname	parser.py	/^    def p_instance_bodylist_one_noname(self, p):$/;"	m	class:VerilogParser
+p_instance_noname	parser.py	/^    def p_instance_noname(self, p):$/;"	m	class:VerilogParser
+p_instance_or	parser.py	/^    def p_instance_or(self, p):$/;"	m	class:VerilogParser
+p_instance_or_noname	parser.py	/^    def p_instance_or_noname(self, p):$/;"	m	class:VerilogParser
+p_instance_port_arg	parser.py	/^    def p_instance_port_arg(self, p):$/;"	m	class:VerilogParser
+p_instance_port_arg_exp	parser.py	/^    def p_instance_port_arg_exp(self, p):$/;"	m	class:VerilogParser
+p_instance_port_arg_none	parser.py	/^    def p_instance_port_arg_none(self, p):$/;"	m	class:VerilogParser
+p_instance_port_list	parser.py	/^    def p_instance_port_list(self, p):$/;"	m	class:VerilogParser
+p_instance_ports	parser.py	/^    def p_instance_ports(self, p):$/;"	m	class:VerilogParser
+p_instance_ports_arg	parser.py	/^    def p_instance_ports_arg(self, p):$/;"	m	class:VerilogParser
+p_instance_ports_arg_one	parser.py	/^    def p_instance_ports_arg_one(self, p):$/;"	m	class:VerilogParser
+p_instance_ports_list	parser.py	/^    def p_instance_ports_list(self, p):$/;"	m	class:VerilogParser
+p_instance_ports_list_empty	parser.py	/^    def p_instance_ports_list_empty(self, p):$/;"	m	class:VerilogParser
+p_instance_ports_list_one	parser.py	/^    def p_instance_ports_list_one(self, p):$/;"	m	class:VerilogParser
+p_integerdecl	parser.py	/^    def p_integerdecl(self, p):$/;"	m	class:VerilogParser
+p_integerdecl_signed	parser.py	/^    def p_integerdecl_signed(self, p):$/;"	m	class:VerilogParser
+p_integername	parser.py	/^    def p_integername(self, p):$/;"	m	class:VerilogParser
+p_integernamelist	parser.py	/^    def p_integernamelist(self, p):$/;"	m	class:VerilogParser
+p_integernamelist_one	parser.py	/^    def p_integernamelist_one(self, p):$/;"	m	class:VerilogParser
+p_intnumber	parser.py	/^    def p_intnumber(self, p):$/;"	m	class:VerilogParser
+p_ioport	parser.py	/^    def p_ioport(self, p):$/;"	m	class:VerilogParser
+p_ioport_dimensions	parser.py	/^    def p_ioport_dimensions(self, p):$/;"	m	class:VerilogParser
+p_ioport_head	parser.py	/^    def p_ioport_head(self, p):$/;"	m	class:VerilogParser
+p_ioport_head_dimensions	parser.py	/^    def p_ioport_head_dimensions(self, p):$/;"	m	class:VerilogParser
+p_ioport_head_width	parser.py	/^    def p_ioport_head_width(self, p):$/;"	m	class:VerilogParser
+p_ioport_portname	parser.py	/^    def p_ioport_portname(self, p):$/;"	m	class:VerilogParser
+p_ioport_width	parser.py	/^    def p_ioport_width(self, p):$/;"	m	class:VerilogParser
+p_ioports	parser.py	/^    def p_ioports(self, p):$/;"	m	class:VerilogParser
+p_ioports_one	parser.py	/^    def p_ioports_one(self, p):$/;"	m	class:VerilogParser
+p_item	parser.py	/^    def p_item(self, p):$/;"	m	class:VerilogParser
+p_items	parser.py	/^    def p_items(self, p):$/;"	m	class:VerilogParser
+p_items_empty	parser.py	/^    def p_items_empty(self, p):$/;"	m	class:VerilogParser
+p_items_one	parser.py	/^    def p_items_one(self, p):$/;"	m	class:VerilogParser
+p_lconcat	parser.py	/^    def p_lconcat(self, p):$/;"	m	class:VerilogParser
+p_lconcat_one_identifier	parser.py	/^    def p_lconcat_one_identifier(self, p):$/;"	m	class:VerilogParser
+p_lconcat_one_lconcat	parser.py	/^    def p_lconcat_one_lconcat(self, p):$/;"	m	class:VerilogParser
+p_lconcat_one_lpartselect	parser.py	/^    def p_lconcat_one_lpartselect(self, p):$/;"	m	class:VerilogParser
+p_lconcat_one_lpointer	parser.py	/^    def p_lconcat_one_lpointer(self, p):$/;"	m	class:VerilogParser
+p_lconcatlist	parser.py	/^    def p_lconcatlist(self, p):$/;"	m	class:VerilogParser
+p_lconcatlist_one	parser.py	/^    def p_lconcatlist_one(self, p):$/;"	m	class:VerilogParser
+p_length	parser.py	/^    def p_length(self, p):$/;"	m	class:VerilogParser
+p_levelsig	parser.py	/^    def p_levelsig(self, p):$/;"	m	class:VerilogParser
+p_levelsig_base_identifier	parser.py	/^    def p_levelsig_base_identifier(self, p):$/;"	m	class:VerilogParser
+p_levelsig_base_partselect	parser.py	/^    def p_levelsig_base_partselect(self, p):$/;"	m	class:VerilogParser
+p_levelsig_base_pointer	parser.py	/^    def p_levelsig_base_pointer(self, p):$/;"	m	class:VerilogParser
+p_levelsigs	parser.py	/^    def p_levelsigs(self, p):$/;"	m	class:VerilogParser
+p_levelsigs_comma	parser.py	/^    def p_levelsigs_comma(self, p):$/;"	m	class:VerilogParser
+p_levelsigs_one	parser.py	/^    def p_levelsigs_one(self, p):$/;"	m	class:VerilogParser
+p_localparamdecl	parser.py	/^    def p_localparamdecl(self, p):$/;"	m	class:VerilogParser
+p_localparamdecl_integer	parser.py	/^    def p_localparamdecl_integer(self, p):$/;"	m	class:VerilogParser
+p_localparamdecl_signed	parser.py	/^    def p_localparamdecl_signed(self, p):$/;"	m	class:VerilogParser
+p_localparamdecl_signed_width	parser.py	/^    def p_localparamdecl_signed_width(self, p):$/;"	m	class:VerilogParser
+p_localparamdecl_width	parser.py	/^    def p_localparamdecl_width(self, p):$/;"	m	class:VerilogParser
+p_lpartselect	parser.py	/^    def p_lpartselect(self, p):$/;"	m	class:VerilogParser
+p_lpartselect_lpointer	parser.py	/^    def p_lpartselect_lpointer(self, p):$/;"	m	class:VerilogParser
+p_lpartselect_lpointer_minus	parser.py	/^    def p_lpartselect_lpointer_minus(self, p):$/;"	m	class:VerilogParser
+p_lpartselect_lpointer_plus	parser.py	/^    def p_lpartselect_lpointer_plus(self, p):$/;"	m	class:VerilogParser
+p_lpartselect_minus	parser.py	/^    def p_lpartselect_minus(self, p):$/;"	m	class:VerilogParser
+p_lpartselect_plus	parser.py	/^    def p_lpartselect_plus(self, p):$/;"	m	class:VerilogParser
+p_lpointer	parser.py	/^    def p_lpointer(self, p):$/;"	m	class:VerilogParser
+p_lvalue_concat	parser.py	/^    def p_lvalue_concat(self, p):$/;"	m	class:VerilogParser
+p_lvalue_one	parser.py	/^    def p_lvalue_one(self, p):$/;"	m	class:VerilogParser
+p_lvalue_partselect	parser.py	/^    def p_lvalue_partselect(self, p):$/;"	m	class:VerilogParser
+p_lvalue_pointer	parser.py	/^    def p_lvalue_pointer(self, p):$/;"	m	class:VerilogParser
+p_moduledef	parser.py	/^    def p_moduledef(self, p):$/;"	m	class:VerilogParser
+p_modulename	parser.py	/^    def p_modulename(self, p):$/;"	m	class:VerilogParser
+p_modulename_or	parser.py	/^    def p_modulename_or(self, p):$/;"	m	class:VerilogParser
+p_namedblock	parser.py	/^    def p_namedblock(self, p):$/;"	m	class:VerilogParser
+p_namedblock_empty	parser.py	/^    def p_namedblock_empty(self, p):$/;"	m	class:VerilogParser
+p_namedblock_statement	parser.py	/^    def p_namedblock_statement(self, p):$/;"	m	class:VerilogParser
+p_namedblock_statements	parser.py	/^    def p_namedblock_statements(self, p):$/;"	m	class:VerilogParser
+p_namedblock_statements_one	parser.py	/^    def p_namedblock_statements_one(self, p):$/;"	m	class:VerilogParser
+p_negedgesig	parser.py	/^    def p_negedgesig(self, p):$/;"	m	class:VerilogParser
+p_nonblocking_substitution	parser.py	/^    def p_nonblocking_substitution(self, p):$/;"	m	class:VerilogParser
+p_parallelblock	parser.py	/^    def p_parallelblock(self, p):$/;"	m	class:VerilogParser
+p_parallelblock_empty	parser.py	/^    def p_parallelblock_empty(self, p):$/;"	m	class:VerilogParser
+p_param	parser.py	/^    def p_param(self, p):$/;"	m	class:VerilogParser
+p_param_arg_exp	parser.py	/^    def p_param_arg_exp(self, p):$/;"	m	class:VerilogParser
+p_param_arg_noname_exp	parser.py	/^    def p_param_arg_noname_exp(self, p):$/;"	m	class:VerilogParser
+p_param_args	parser.py	/^    def p_param_args(self, p):$/;"	m	class:VerilogParser
+p_param_args_empty	parser.py	/^    def p_param_args_empty(self, p):$/;"	m	class:VerilogParser
+p_param_args_noname	parser.py	/^    def p_param_args_noname(self, p):$/;"	m	class:VerilogParser
+p_param_args_noname_one	parser.py	/^    def p_param_args_noname_one(self, p):$/;"	m	class:VerilogParser
+p_param_args_one	parser.py	/^    def p_param_args_one(self, p):$/;"	m	class:VerilogParser
+p_param_end	parser.py	/^    def p_param_end(self, p):$/;"	m	class:VerilogParser
+p_param_end_integer	parser.py	/^    def p_param_end_integer(self, p):$/;"	m	class:VerilogParser
+p_param_end_signed	parser.py	/^    def p_param_end_signed(self, p):$/;"	m	class:VerilogParser
+p_param_end_signed_width	parser.py	/^    def p_param_end_signed_width(self, p):$/;"	m	class:VerilogParser
+p_param_end_width	parser.py	/^    def p_param_end_width(self, p):$/;"	m	class:VerilogParser
+p_param_integer	parser.py	/^    def p_param_integer(self, p):$/;"	m	class:VerilogParser
+p_param_signed	parser.py	/^    def p_param_signed(self, p):$/;"	m	class:VerilogParser
+p_param_signed_width	parser.py	/^    def p_param_signed_width(self, p):$/;"	m	class:VerilogParser
+p_param_substitution	parser.py	/^    def p_param_substitution(self, p):$/;"	m	class:VerilogParser
+p_param_substitution_list	parser.py	/^    def p_param_substitution_list(self, p):$/;"	m	class:VerilogParser
+p_param_substitution_list_one	parser.py	/^    def p_param_substitution_list_one(self, p):$/;"	m	class:VerilogParser
+p_param_width	parser.py	/^    def p_param_width(self, p):$/;"	m	class:VerilogParser
+p_parameterdecl	parser.py	/^    def p_parameterdecl(self, p):$/;"	m	class:VerilogParser
+p_parameterdecl_integer	parser.py	/^    def p_parameterdecl_integer(self, p):$/;"	m	class:VerilogParser
+p_parameterdecl_signed	parser.py	/^    def p_parameterdecl_signed(self, p):$/;"	m	class:VerilogParser
+p_parameterdecl_signed_width	parser.py	/^    def p_parameterdecl_signed_width(self, p):$/;"	m	class:VerilogParser
+p_parameterdecl_width	parser.py	/^    def p_parameterdecl_width(self, p):$/;"	m	class:VerilogParser
+p_parameterlist	parser.py	/^    def p_parameterlist(self, p):$/;"	m	class:VerilogParser
+p_parameterlist_empty	parser.py	/^    def p_parameterlist_empty(self, p):$/;"	m	class:VerilogParser
+p_parameterlist_noname	parser.py	/^    def p_parameterlist_noname(self, p):$/;"	m	class:VerilogParser
+p_paramlist	parser.py	/^    def p_paramlist(self, p):$/;"	m	class:VerilogParser
+p_paramlist_empty	parser.py	/^    def p_paramlist_empty(self, p):$/;"	m	class:VerilogParser
+p_params	parser.py	/^    def p_params(self, p):$/;"	m	class:VerilogParser
+p_params_begin	parser.py	/^    def p_params_begin(self, p):$/;"	m	class:VerilogParser
+p_params_begin_one	parser.py	/^    def p_params_begin_one(self, p):$/;"	m	class:VerilogParser
+p_params_one	parser.py	/^    def p_params_one(self, p):$/;"	m	class:VerilogParser
+p_partselect	parser.py	/^    def p_partselect(self, p):$/;"	m	class:VerilogParser
+p_partselect_minus	parser.py	/^    def p_partselect_minus(self, p):$/;"	m	class:VerilogParser
+p_partselect_plus	parser.py	/^    def p_partselect_plus(self, p):$/;"	m	class:VerilogParser
+p_partselect_pointer	parser.py	/^    def p_partselect_pointer(self, p):$/;"	m	class:VerilogParser
+p_partselect_pointer_minus	parser.py	/^    def p_partselect_pointer_minus(self, p):$/;"	m	class:VerilogParser
+p_partselect_pointer_plus	parser.py	/^    def p_partselect_pointer_plus(self, p):$/;"	m	class:VerilogParser
+p_pointer	parser.py	/^    def p_pointer(self, p):$/;"	m	class:VerilogParser
+p_pointer_pointer	parser.py	/^    def p_pointer_pointer(self, p):$/;"	m	class:VerilogParser
+p_portlist	parser.py	/^    def p_portlist(self, p):$/;"	m	class:VerilogParser
+p_portlist_empty	parser.py	/^    def p_portlist_empty(self, p):$/;"	m	class:VerilogParser
+p_portlist_io	parser.py	/^    def p_portlist_io(self, p):$/;"	m	class:VerilogParser
+p_portlist_paren_empty	parser.py	/^    def p_portlist_paren_empty(self, p):$/;"	m	class:VerilogParser
+p_portname	parser.py	/^    def p_portname(self, p):$/;"	m	class:VerilogParser
+p_ports	parser.py	/^    def p_ports(self, p):$/;"	m	class:VerilogParser
+p_ports_one	parser.py	/^    def p_ports_one(self, p):$/;"	m	class:VerilogParser
+p_posedgesig	parser.py	/^    def p_posedgesig(self, p):$/;"	m	class:VerilogParser
+p_pragma	parser.py	/^    def p_pragma(self, p):$/;"	m	class:VerilogParser
+p_pragma_assign	parser.py	/^    def p_pragma_assign(self, p):$/;"	m	class:VerilogParser
+p_realdecl	parser.py	/^    def p_realdecl(self, p):$/;"	m	class:VerilogParser
+p_realname	parser.py	/^    def p_realname(self, p):$/;"	m	class:VerilogParser
+p_realnamelist	parser.py	/^    def p_realnamelist(self, p):$/;"	m	class:VerilogParser
+p_realnamelist_one	parser.py	/^    def p_realnamelist_one(self, p):$/;"	m	class:VerilogParser
+p_repeat	parser.py	/^    def p_repeat(self, p):$/;"	m	class:VerilogParser
+p_rvalue	parser.py	/^    def p_rvalue(self, p):$/;"	m	class:VerilogParser
+p_scope	parser.py	/^    def p_scope(self, p):$/;"	m	class:VerilogParser
+p_scope_identifier	parser.py	/^    def p_scope_identifier(self, p):$/;"	m	class:VerilogParser
+p_scope_pointer	parser.py	/^    def p_scope_pointer(self, p):$/;"	m	class:VerilogParser
+p_sens_all	parser.py	/^    def p_sens_all(self, p):$/;"	m	class:VerilogParser
+p_sens_all_paren	parser.py	/^    def p_sens_all_paren(self, p):$/;"	m	class:VerilogParser
+p_sens_egde_paren	parser.py	/^    def p_sens_egde_paren(self, p):$/;"	m	class:VerilogParser
+p_sens_empty	parser.py	/^    def p_sens_empty(self, p):$/;"	m	class:VerilogParser
+p_sens_level	parser.py	/^    def p_sens_level(self, p):$/;"	m	class:VerilogParser
+p_sens_level_paren	parser.py	/^    def p_sens_level_paren(self, p):$/;"	m	class:VerilogParser
+p_sigtype_inout	parser.py	/^    def p_sigtype_inout(self, p):$/;"	m	class:VerilogParser
+p_sigtype_input	parser.py	/^    def p_sigtype_input(self, p):$/;"	m	class:VerilogParser
+p_sigtype_logic	parser.py	/^    def p_sigtype_logic(self, p):$/;"	m	class:VerilogParser
+p_sigtype_output	parser.py	/^    def p_sigtype_output(self, p):$/;"	m	class:VerilogParser
+p_sigtype_reg	parser.py	/^    def p_sigtype_reg(self, p):$/;"	m	class:VerilogParser
+p_sigtype_signed	parser.py	/^    def p_sigtype_signed(self, p):$/;"	m	class:VerilogParser
+p_sigtype_supply0	parser.py	/^    def p_sigtype_supply0(self, p):$/;"	m	class:VerilogParser
+p_sigtype_supply1	parser.py	/^    def p_sigtype_supply1(self, p):$/;"	m	class:VerilogParser
+p_sigtype_tri	parser.py	/^    def p_sigtype_tri(self, p):$/;"	m	class:VerilogParser
+p_sigtype_wire	parser.py	/^    def p_sigtype_wire(self, p):$/;"	m	class:VerilogParser
+p_sigtypes	parser.py	/^    def p_sigtypes(self, p):$/;"	m	class:VerilogParser
+p_sigtypes_one	parser.py	/^    def p_sigtypes_one(self, p):$/;"	m	class:VerilogParser
+p_single_statement_delays	parser.py	/^    def p_single_statement_delays(self, p):$/;"	m	class:VerilogParser
+p_single_statement_disable	parser.py	/^    def p_single_statement_disable(self, p):$/;"	m	class:VerilogParser
+p_single_statement_systemcall	parser.py	/^    def p_single_statement_systemcall(self, p):$/;"	m	class:VerilogParser
+p_source_text	parser.py	/^    def p_source_text(self, p):$/;"	m	class:VerilogParser
+p_standard_item	parser.py	/^    def p_standard_item(self, p):$/;"	m	class:VerilogParser
+p_stringliteral	parser.py	/^    def p_stringliteral(self, p):$/;"	m	class:VerilogParser
+p_sysarg	parser.py	/^    def p_sysarg(self, p):$/;"	m	class:VerilogParser
+p_sysargs	parser.py	/^    def p_sysargs(self, p):$/;"	m	class:VerilogParser
+p_sysargs_empty	parser.py	/^    def p_sysargs_empty(self, p):$/;"	m	class:VerilogParser
+p_sysargs_one	parser.py	/^    def p_sysargs_one(self, p):$/;"	m	class:VerilogParser
+p_systemcall	parser.py	/^    def p_systemcall(self, p):$/;"	m	class:VerilogParser
+p_systemcall_noargs	parser.py	/^    def p_systemcall_noargs(self, p):$/;"	m	class:VerilogParser
+p_systemcall_signed	parser.py	/^    def p_systemcall_signed(self, p):  # for $signed system task$/;"	m	class:VerilogParser
+p_task	parser.py	/^    def p_task(self, p):$/;"	m	class:VerilogParser
+p_task_calc	parser.py	/^    def p_task_calc(self, p):$/;"	m	class:VerilogParser
+p_task_statement	parser.py	/^    def p_task_statement(self, p):$/;"	m	class:VerilogParser
+p_taskvardecl	parser.py	/^    def p_taskvardecl(self, p):$/;"	m	class:VerilogParser
+p_taskvardecls	parser.py	/^    def p_taskvardecls(self, p):$/;"	m	class:VerilogParser
+p_taskvardecls_empty	parser.py	/^    def p_taskvardecls_empty(self, p):$/;"	m	class:VerilogParser
+p_taskvardecls_one	parser.py	/^    def p_taskvardecls_one(self, p):$/;"	m	class:VerilogParser
+p_true_statement	parser.py	/^    def p_true_statement(self, p):$/;"	m	class:VerilogParser
+p_unique_case_statement	parser.py	/^    def p_unique_case_statement(self, p):$/;"	m	class:VerilogParser
+p_wait_statement	parser.py	/^    def p_wait_statement(self, p):$/;"	m	class:VerilogParser
+p_waitcontent_statement	parser.py	/^    def p_waitcontent_statement(self, p):$/;"	m	class:VerilogParser
+p_waitcontent_statement_empty	parser.py	/^    def p_waitcontent_statement_empty(self, p):$/;"	m	class:VerilogParser
+p_while_statement	parser.py	/^    def p_while_statement(self, p):$/;"	m	class:VerilogParser
+p_whilecontent_statement	parser.py	/^    def p_whilecontent_statement(self, p):$/;"	m	class:VerilogParser
+p_width	parser.py	/^    def p_width(self, p):$/;"	m	class:VerilogParser
+parse	parser.py	/^    def parse(self, preprocess_output='preprocess.output', debug=0):$/;"	m	class:VerilogCodeParser
+parse	parser.py	/^    def parse(self, text, debug=0):$/;"	m	class:VerilogParser
+parse	parser.py	/^def parse($/;"	f
+parse	ply/yacc.py	/^    def parse(self,input=None,lexer=None,debug=0,tracking=0,tokenfunc=None):$/;"	m	class:LRParser
+parse_grammar	ply/yacc.py	/^def parse_grammar(doc,file,line):$/;"	f
+parsedebug	ply/yacc.py	/^    def parsedebug(self,input=None,lexer=None,debug=None,tracking=0,tokenfunc=None):$/;"	m	class:LRParser
+parseopt	ply/yacc.py	/^    def parseopt(self,input=None,lexer=None,debug=0,tracking=0,tokenfunc=None):$/;"	m	class:LRParser
+parseopt_notrack	ply/yacc.py	/^    def parseopt_notrack(self,input=None,lexer=None,debug=0,tracking=0,tokenfunc=None):$/;"	m	class:LRParser
+pickle_protocol	ply/yacc.py	/^pickle_protocol = 0            # Protocol to use when writing pickle files$/;"	v
+pickle_table	ply/yacc.py	/^    def pickle_table(self,filename,signature=""):$/;"	m	class:LRGeneratedTable
+pop_state	ply/lex.py	/^    def pop_state(self):$/;"	m	class:Lexer
+pre	preprocessor.py	/^    pre = VerilogPreprocessor(filelist, output, include, define)$/;"	v
+precedence	parser.py	/^    precedence = ($/;"	v	class:VerilogParser
+preprocess	parser.py	/^    def preprocess(self):$/;"	m	class:VerilogCodeParser
+preprocess	preprocessor.py	/^    def preprocess(self):$/;"	m	class:VerilogPreprocessor
+preprocess	preprocessor.py	/^def preprocess($/;"	f
+preprocess_define	parser.py	/^        preprocess_define=preprocess_define,$/;"	v
+preprocess_include	parser.py	/^        preprocess_include=preprocess_include,$/;"	v
+push_state	ply/lex.py	/^    def push_state(self,state):$/;"	m	class:Lexer
+read_pickle	ply/yacc.py	/^    def read_pickle(self,filename):$/;"	m	class:LRTable
+read_table	ply/yacc.py	/^    def read_table(self,module,outputdir):$/;"	m	class:LRTable
+reads_relation	ply/yacc.py	/^    def reads_relation(self,C, trans, empty):$/;"	m	class:LRGeneratedTable
+readtab	ply/lex.py	/^    def readtab(self,tabfile,fdict):$/;"	m	class:Lexer
+reduced	ply/yacc.py	/^    reduced = 0$/;"	v	class:Production
+reserved	lexer.py	/^    reserved = {}$/;"	v	class:VerilogLexer
+reset_lineno	lexer.py	/^    def reset_lineno(self):$/;"	m	class:VerilogLexer
+restart	ply/yacc.py	/^    def restart(self):$/;"	m	class:LRParser
+resultlimit	ply/yacc.py	/^resultlimit = 40               # Size limit of results when running in debug mode.$/;"	v
+rightmost_terminal	ply/yacc.py	/^def rightmost_terminal(symbols, terminals):$/;"	f
+runmain	ply/lex.py	/^def runmain(lexer=None,data=None):$/;"	f
+set_doc	ply/lex.py	/^    def set_doc(f):$/;"	f	function:TOKEN
+set_lineno	ply/yacc.py	/^    def set_lineno(self,n,lineno):$/;"	m	class:YaccProduction
+set_precedence	ply/yacc.py	/^    def set_precedence(self,term,assoc,level):$/;"	m	class:Grammar
+set_start	ply/yacc.py	/^    def set_start(self,start=None):$/;"	m	class:Grammar
+show	ast.py	/^    def show(self, buf=sys.stdout, offset=0, attrnames=False, showlineno=True):$/;"	m	class:Node
+signature	ply/yacc.py	/^    def signature(self):$/;"	m	class:ParserReflect
+signed_bin_number	lexer.py	/^    signed_bin_number = '[0-9]*\\'[sS][bB][0-1xZzZ?][0-1xXzZ?_]*'$/;"	v	class:VerilogLexer
+signed_decimal_number	lexer.py	/^    signed_decimal_number = '[0-9]*\\'[sS][dD][0-9xXzZ?][0-9xXzZ?_]*'$/;"	v	class:VerilogLexer
+signed_hex_number	lexer.py	/^    signed_hex_number = '[0-9]*\\'[sS][hH][0-9a-fA-FxXzZ?][0-9a-fA-FxXzZ?_]*'$/;"	v	class:VerilogLexer
+signed_octal_number	lexer.py	/^    signed_octal_number = '[0-9]*\\'[sS][oO][0-7xXzZ?][0-7xXzZ?_]*'$/;"	v	class:VerilogLexer
+skip	ply/lex.py	/^    def skip(self,n):$/;"	m	class:Lexer
+skipped	lexer.py	/^    skipped = ($/;"	v	class:VerilogLexer
+string_literal	lexer.py	/^    string_literal = '"' + string_char + '*"'$/;"	v	class:VerilogLexer
+t_AND	lexer.py	/^    t_AND = r'\\&'$/;"	v	class:VerilogLexer
+t_AT	lexer.py	/^    t_AT = r'@'$/;"	v	class:VerilogLexer
+t_COLON	lexer.py	/^    t_COLON = r':'$/;"	v	class:VerilogLexer
+t_COMMA	lexer.py	/^    t_COMMA = r','$/;"	v	class:VerilogLexer
+t_COMMENTOUT	lexer.py	/^    def t_COMMENTOUT(self, t):$/;"	m	class:VerilogLexer
+t_COND	lexer.py	/^    t_COND = r'\\?'$/;"	v	class:VerilogLexer
+t_DELAY	lexer.py	/^    t_DELAY = r'\\#'$/;"	v	class:VerilogLexer
+t_DIRECTIVE	lexer.py	/^    def t_DIRECTIVE(self, t):$/;"	m	class:VerilogLexer
+t_DIVIDE	lexer.py	/^    t_DIVIDE = r'\/'$/;"	v	class:VerilogLexer
+t_DOLLER	lexer.py	/^    t_DOLLER = r'\\$'$/;"	v	class:VerilogLexer
+t_DOT	lexer.py	/^    t_DOT = r'\\.'$/;"	v	class:VerilogLexer
+t_FLOATNUMBER	lexer.py	/^    def t_FLOATNUMBER(self, t):$/;"	m	class:VerilogLexer
+t_GT	lexer.py	/^    t_GT = r'>'$/;"	v	class:VerilogLexer
+t_ID	lexer.py	/^    def t_ID(self, t):$/;"	m	class:VerilogLexer
+t_INTNUMBER_BIN	lexer.py	/^    def t_INTNUMBER_BIN(self, t):$/;"	m	class:VerilogLexer
+t_INTNUMBER_DEC	lexer.py	/^    def t_INTNUMBER_DEC(self, t):$/;"	m	class:VerilogLexer
+t_INTNUMBER_HEX	lexer.py	/^    def t_INTNUMBER_HEX(self, t):$/;"	m	class:VerilogLexer
+t_INTNUMBER_OCT	lexer.py	/^    def t_INTNUMBER_OCT(self, t):$/;"	m	class:VerilogLexer
+t_LAND	lexer.py	/^    t_LAND = r'\\&\\&'$/;"	v	class:VerilogLexer
+t_LBRACE	lexer.py	/^    t_LBRACE = r'\\{'$/;"	v	class:VerilogLexer
+t_LBRACKET	lexer.py	/^    t_LBRACKET = r'\\['$/;"	v	class:VerilogLexer
+t_LINECOMMENT	lexer.py	/^    def t_LINECOMMENT(self, t):$/;"	m	class:VerilogLexer
+t_LNOT	lexer.py	/^    t_LNOT = r'!'$/;"	v	class:VerilogLexer
+t_LOR	lexer.py	/^    t_LOR = r'\\|\\|'$/;"	v	class:VerilogLexer
+t_LPAREN	lexer.py	/^    t_LPAREN = r'\\('$/;"	v	class:VerilogLexer
+t_LSHIFT	lexer.py	/^    t_LSHIFT = r'<<'$/;"	v	class:VerilogLexer
+t_LSHIFTA	lexer.py	/^    t_LSHIFTA = r'<<<'$/;"	v	class:VerilogLexer
+t_LT	lexer.py	/^    t_LT = r'<'$/;"	v	class:VerilogLexer
+t_MINUS	lexer.py	/^    t_MINUS = r'-'$/;"	v	class:VerilogLexer
+t_MINUSCOLON	lexer.py	/^    t_MINUSCOLON = r'-:'$/;"	v	class:VerilogLexer
+t_MOD	lexer.py	/^    t_MOD = r'%'$/;"	v	class:VerilogLexer
+t_NAND	lexer.py	/^    t_NAND = r'~\\&'$/;"	v	class:VerilogLexer
+t_NEWLINE	lexer.py	/^    def t_NEWLINE(self, t):$/;"	m	class:VerilogLexer
+t_NOR	lexer.py	/^    t_NOR = r'~\\|'$/;"	v	class:VerilogLexer
+t_NOT	lexer.py	/^    t_NOT = r'~'$/;"	v	class:VerilogLexer
+t_OR	lexer.py	/^    t_OR = r'\\|'$/;"	v	class:VerilogLexer
+t_PLUS	lexer.py	/^    t_PLUS = r'\\+'$/;"	v	class:VerilogLexer
+t_PLUSCOLON	lexer.py	/^    t_PLUSCOLON = r'\\+:'$/;"	v	class:VerilogLexer
+t_POWER	lexer.py	/^    t_POWER = r'\\*\\*'$/;"	v	class:VerilogLexer
+t_RBRACE	lexer.py	/^    t_RBRACE = r'\\}'$/;"	v	class:VerilogLexer
+t_RBRACKET	lexer.py	/^    t_RBRACKET = r'\\]'$/;"	v	class:VerilogLexer
+t_RPAREN	lexer.py	/^    t_RPAREN = r'\\)'$/;"	v	class:VerilogLexer
+t_RSHIFT	lexer.py	/^    t_RSHIFT = r'>>'$/;"	v	class:VerilogLexer
+t_RSHIFTA	lexer.py	/^    t_RSHIFTA = r'>>>'$/;"	v	class:VerilogLexer
+t_SEMICOLON	lexer.py	/^    t_SEMICOLON = r';'$/;"	v	class:VerilogLexer
+t_SIGNED_INTNUMBER_BIN	lexer.py	/^    def t_SIGNED_INTNUMBER_BIN(self, t):$/;"	m	class:VerilogLexer
+t_SIGNED_INTNUMBER_DEC	lexer.py	/^    def t_SIGNED_INTNUMBER_DEC(self, t):$/;"	m	class:VerilogLexer
+t_SIGNED_INTNUMBER_HEX	lexer.py	/^    def t_SIGNED_INTNUMBER_HEX(self, t):$/;"	m	class:VerilogLexer
+t_SIGNED_INTNUMBER_OCT	lexer.py	/^    def t_SIGNED_INTNUMBER_OCT(self, t):$/;"	m	class:VerilogLexer
+t_STRING_LITERAL	lexer.py	/^    def t_STRING_LITERAL(self, t):$/;"	m	class:VerilogLexer
+t_TIMES	lexer.py	/^    t_TIMES = r'\\*'$/;"	v	class:VerilogLexer
+t_XNOR	lexer.py	/^    t_XNOR = r'~\\^'$/;"	v	class:VerilogLexer
+t_XOR	lexer.py	/^    t_XOR = r'\\^'$/;"	v	class:VerilogLexer
+t_error	lexer.py	/^    def t_error(self, t):$/;"	m	class:VerilogLexer
+t_ignore	lexer.py	/^    t_ignore = ' \\t'$/;"	v	class:VerilogLexer
+tab_module	ply/yacc.py	/^tab_module  = 'parsetab'       # Default name of the table module$/;"	v
+text	preprocessor.py	/^    text = open(output).read()$/;"	v
+token	lexer.py	/^    def token(self):$/;"	m	class:VerilogLexer
+token	ply/lex.py	/^    def token(self):$/;"	m	class:Lexer
+tokens	lexer.py	/^    tokens = keywords + operators + ($/;"	v	class:VerilogLexer
+traverse	ply/yacc.py	/^def traverse(x,N,stack,F,X,R,FP):$/;"	f
+typecheck_decl	parser.py	/^    def typecheck_decl(self, sigtypes, dimensions=None):$/;"	m	class:VerilogParser
+typecheck_declassign	parser.py	/^    def typecheck_declassign(self, sigtypes):$/;"	m	class:VerilogParser
+typecheck_ioport	parser.py	/^    def typecheck_ioport(self, sigtypes):$/;"	m	class:VerilogParser
+undefined_symbols	ply/yacc.py	/^    def undefined_symbols(self):$/;"	m	class:Grammar
+unused_precedence	ply/yacc.py	/^    def unused_precedence(self):$/;"	m	class:Grammar
+unused_rules	ply/yacc.py	/^    def unused_rules(self):$/;"	m	class:Grammar
+unused_terminals	ply/yacc.py	/^    def unused_terminals(self):$/;"	m	class:Grammar
+validate_all	ply/lex.py	/^    def validate_all(self):$/;"	m	class:LexerReflect
+validate_all	ply/yacc.py	/^    def validate_all(self):$/;"	m	class:ParserReflect
+validate_error_func	ply/yacc.py	/^    def validate_error_func(self):$/;"	m	class:ParserReflect
+validate_file	ply/lex.py	/^    def validate_file(self,filename):$/;"	m	class:LexerReflect
+validate_files	ply/yacc.py	/^    def validate_files(self):$/;"	m	class:ParserReflect
+validate_literals	ply/lex.py	/^    def validate_literals(self):$/;"	m	class:LexerReflect
+validate_pfunctions	ply/yacc.py	/^    def validate_pfunctions(self):$/;"	m	class:ParserReflect
+validate_precedence	ply/yacc.py	/^    def validate_precedence(self):$/;"	m	class:ParserReflect
+validate_rules	ply/lex.py	/^    def validate_rules(self):$/;"	m	class:LexerReflect
+validate_start	ply/yacc.py	/^    def validate_start(self):$/;"	m	class:ParserReflect
+validate_tokens	ply/lex.py	/^    def validate_tokens(self):$/;"	m	class:LexerReflect
+validate_tokens	ply/yacc.py	/^    def validate_tokens(self):$/;"	m	class:ParserReflect
+warning	ply/lex.py	/^    def warning(self,msg,*args,**kwargs):$/;"	m	class:PlyLogger
+warning	ply/yacc.py	/^    def warning(self,msg,*args,**kwargs):$/;"	m	class:PlyLogger
+write_table	ply/yacc.py	/^    def write_table(self,modulename,outputdir='',signature=""):$/;"	m	class:LRGeneratedTable
+writetab	ply/lex.py	/^    def writetab(self,tabfile,outputdir=""):$/;"	m	class:Lexer
+yacc	ply/yacc.py	/^def yacc(method='LALR', debug=yaccdebug, module=None, tabmodule=tab_module, start=None, $/;"	f
+yaccdebug	ply/yacc.py	/^yaccdebug   = 1                # Debugging mode.  If set, yacc generates a$/;"	v
+yaccdevel	ply/yacc.py	/^yaccdevel   = 0                # Set to True if developing yacc.  This turns off optimized$/;"	v

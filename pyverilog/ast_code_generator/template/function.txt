@@ -1,5 +1,5 @@
 
-function {{ retwidth }} {{ name }};
+function {{ retwidth }}{{ ret }} {{ name }};
 {%- for s in statement %}
 {{ s }}
 {%- endfor %}
